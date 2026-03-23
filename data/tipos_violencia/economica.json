@@ -1,0 +1,134 @@
+{
+  "nombre": "Violencia Económica",
+  "categoria": "Tipo",
+  "descripcion": "Toda acción u omisión que afecta la economía de una persona, mediante el control del ingreso, el salario, la negociación de recursos o la limitación injustificada para obtener autonomía financiera.",
+  "ejemplos": [
+    "No permitir que la persona trabaje o estudie.",
+    "Control del salario o de los ingresos personales.",
+    "Negarle dinero para necesidades básicas.",
+    "Hacerla pedir permiso para gastar su propio dinero.",
+    "Exigir pruebas de no embarazo como condición de trabajo.",
+    "Negarse a dar manutención económica a hijas o hijos."
+  ],
+  "consecuencias": [
+    "Dependencia financiera del agresor.",
+    "Imposibilidad de tomar decisiones autónomas.",
+    "Vulnerabilidad ante otras formas de violencia.",
+    "Empobrecimiento o endeudamiento forzado.",
+    "Desigualdad laboral y profesional."
+  ],
+  "senales_alerta": [
+    "No puedes trabajar o estudiar por decisión de tu pareja o familia.",
+    "Te hacen rendir cuentas por cada peso que gastas.",
+    "No tienes acceso a tus propios ingresos.",
+    "Dependes totalmente del agresor para cubrir tus necesidades.",
+    "Te controlan económicamente para manipularte o castigarte."
+  ],
+  "frases_comunes_victima": [
+    "Él administra todo, no necesito trabajar.",
+    "No me deja trabajar porque dice que mi lugar es la casa.",
+    "Me da dinero solo si se lo pido de buena forma.",
+    "No tengo tarjeta, todo está a su nombre.",
+    "No me paga lo que me prometió por cuidar a los niños."
+  ],
+  "base_legal": {
+    "Ley de Acceso": "Reconocida como forma de violencia que impide el desarrollo y autonomía económica.",
+    "Código Penal (Art. 201)": "Se sanciona si forma parte de un patrón de violencia familiar o causa daño económico intencional.",
+    "Código de Procedimientos Penales": "Puede derivar en órdenes de protección o reparación del daño económico causado."
+  },
+  "prevencion": [
+    "Promover la autonomía financiera de todas las personas.",
+    "Fomentar la educación económica y laboral.",
+    "Denunciar prácticas laborales discriminatorias.",
+    "Fortalecer el acceso igualitario al empleo y a la educación."
+  ],
+  "que_hacer": [
+    "Buscar asesoría legal y orientación financiera.",
+    "Denunciar ante el Ministerio Público o Centro de Justicia para Mujeres.",
+    "Solicitar pensión alimenticia si aplica.",
+    "Contactar a instituciones que brinden acompañamiento económico o jurídico.",
+    "Guardar comprobantes, mensajes y evidencia del control económico."
+  ],
+  "instituciones_apoyo": [
+    "Línea Mujeres CDMX: 5658 1111",
+    "Centro de Justicia para Mujeres",
+    "INMUJERES",
+    "PROFEDET (defensoría del trabajo): 800 911 7877",
+    "Línea Nacional Contra la Violencia: 800 911 25 11"
+  ],
+  "reconocimiento": "La violencia económica puede pasar desapercibida, pero tiene un impacto profundo en la autonomía, la dignidad y las posibilidades de vida de la víctima. Se manifiesta cuando el control del dinero es usado como forma de dominio.",
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Si no me deja trabajar, eso es violencia económica?",
+      "respuesta": "Sí. Impedirte generar ingresos para depender del agresor es una forma clara de violencia económica."
+    },
+    {
+      "pregunta": "¿Qué hago si no tengo dinero para salir de esa situación?",
+      "respuesta": "Existen apoyos institucionales y asesoría gratuita. Puedes acudir a un Centro de Justicia para Mujeres o llamar al 800 911 25 11."
+    },
+    {
+      "pregunta": "¿Y si la persona dice que es 'por mi bien'?",
+      "respuesta": "Controlar tu economía sin tu consentimiento nunca es justificable. Toda persona tiene derecho a decidir sobre su trabajo y dinero."
+    }
+  ],
+  "alerta": "La violencia económica suele ser el primer paso para aislar y someter a una persona. Si te impiden tener control sobre tus ingresos o acceso al trabajo, busca apoyo.",
+  "recursos": [
+    {
+      "tipo": "sitioWeb",
+      "titulo": "¿Qué es la violencia económica?",
+      "url": "https://www.bbva.mx/personas/productos/sostenibilidad/que-es-la-violencia-economica.html"
+    }
+  ],
+  "detector_automatizado": {
+    "palabras_clave": [
+      "no me deja trabajar",
+      "no me dejan trabajar",
+      "no me da dinero",
+      "no me da para los gastos",
+      "todo está a su nombre",
+      "todo esta a su nombre",
+      "me controla lo que gasto",
+      "me controla el dinero",
+      "me raciona el dinero",
+      "no tengo acceso a mi sueldo",
+      "me quita mi sueldo",
+      "me retiene el salario",
+      "no me paga la pensión",
+      "no me paga la pension",
+      "me obliga a entregar mi sueldo",
+      "tengo que darle mi quincena",
+      "usa mis tarjetas",
+      "me quitó las tarjetas",
+      "me quito las tarjetas",
+      "me endeuda",
+      "puso deudas a mi nombre",
+      "no me deja estudiar",
+      "me prohíbe estudiar",
+      "me prohibe estudiar"
+    ],
+    "emociones_asociadas": [
+      "frustración",
+      "dependencia",
+      "ansiedad",
+      "desesperación"
+    ],
+    "sugerir_ayuda_si": true
+  },
+  "etiquetas": [
+    "económica",
+    "trabajo",
+    "dinero",
+    "control financiero",
+    "dependencia"
+  ],
+  "respuestas_chatbot": {
+    "respuesta_directa": "Eso es Violencia Económica.",
+    "validacion": "Tienes derecho a manejar tu propio dinero.",
+    "recomendacion_general": [
+      "En la sección de 'Directorios' puedes encontrar asesoría económica y legal gratuita.",
+      "En el 'Mapa' puedes ver instituciones que brindan apoyo a mujeres.",
+      "Llama al 800 911 25 11 para orientación gratuita."
+    ]
+  }
+}
+

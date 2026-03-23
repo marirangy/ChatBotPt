@@ -1,0 +1,12 @@
+{
+  "nombre": "Acompañamiento Legal",
+  "respuestas_chatbot": {
+    "respuesta_directa": "Esto es Acompañamiento Legal.",
+    "validacion": "No estás sola, hay asesoría jurídica gratuita.",
+    "recomendacion_general": [
+      "En la parte de 'Directorios' de la página puedes encontrar contactos de asesoría legal.",
+      "En el 'Mapa' puedes ver fiscalías y centros de justicia.",
+      "Acude al Ministerio Público o llama al 800 911 25 11."
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+version: "3.1"
+
+nlu:
+
+- intent: acompanamiento_general
+  examples: |
+    - ¿qué tipo de acompañamiento ofrecen?
+    - ¿cómo pueden acompañarme si sufro violencia?
+    - ¿qué apoyos tengo disponibles?
+    - ¿hay alguien que me pueda acompañar durante el proceso?
+    - ¿me pueden guiar en casos de violencia?
+    - ¿existen servicios de acompañamiento para mujeres?
+    - ¿pueden ayudarme durante todo el proceso?
+
+- intent: acompanamiento_legal
+  examples: |
+    - ¿qué tipo de apoyo legal puedo recibir?
+    - ¿me pueden acompañar a hacer una denuncia?
+    - ¿cómo funciona el acompañamiento legal?
+    - ¿quién me puede asesorar legalmente?
+    - ¿pueden ayudarme con orientación jurídica?
+    - ¿tienen abogados que puedan apoyarme?
+    - ¿necesito llevar documentos para el apoyo legal?
+
+- intent: acompanamiento_psicologico
+  examples: |
+    - ¿hay apoyo psicológico?
+    - ¿me pueden acompañar en terapia?
+    - ¿cómo puedo acceder a ayuda psicológica?
+    - ¿cuál es el proceso para recibir atención emocional?
+    - ¿quién me escucha si me siento mal?
+    - ¿ofrecen sesiones de terapia?
+    - ¿el apoyo emocional es gratuito?
+
+- intent: acompanamiento_tiempos
+  examples: |
+    - ¿cuánto tarda el proceso de acompañamiento?
+    - ¿en cuánto tiempo me dan respuesta?
+    - ¿cuánto dura el acompañamiento?
+    - ¿tarda mucho en iniciar el apoyo?
+    - ¿el acompañamiento es inmediato?
+    - ¿cuántos días pasan antes de que me atiendan?
+
+- intent: acompanamiento_proceso
+  examples: |
+    - ¿cómo es el proceso de acompañamiento?
+    - ¿qué pasos tengo que seguir?
+    - ¿me explicas cómo funciona el acompañamiento?
+    - ¿qué debo hacer primero?
+    - ¿cómo empiezo a recibir apoyo?
+    - ¿hay un registro o trámite que hacer?
+    - ¿puedo ir directamente o tengo que agendar?
+
+- intent: acompanamiento_acompanantes
+  examples: |
+    - ¿quién me acompaña en el proceso?
+    - ¿es una psicóloga o abogada?
+    - ¿qué profesionales me ayudan?
+    - ¿las personas que ayudan son mujeres?
+    - ¿es confidencial quién me acompaña?
+    - ¿puedo elegir quién me acompaña?
+    - ¿los acompañantes tienen capacitación especializada?
+
+- intent: acompanamiento_seguimiento
+  examples: |
+    - ¿hay seguimiento después del primer contacto?
+    - ¿me van a seguir apoyando?
+    - ¿qué pasa después de la primera atención?
+    - ¿me vuelven a contactar?
+    - ¿puedo seguir en contacto con quien me apoyó?
+    - ¿cómo se da seguimiento a mi caso?
+    - ¿cada cuándo me darán seguimiento?

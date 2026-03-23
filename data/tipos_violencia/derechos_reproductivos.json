@@ -1,0 +1,113 @@
+{
+  "nombre": "Violencia contra los Derechos Reproductivos",
+  "categoria": "Tipo",
+  "descripcion": "Toda acción y omisión que limita, vulnera o niega el derecho de una persona a decidir libre y voluntariamente sobre su función reproductiva, incluyendo el número y espaciamiento de hijos, acceso a anticonceptivos o servicios de salud reproductiva.",
+  "ejemplos": [
+    "Negarle el acceso a métodos anticonceptivos.",
+    "Obligar a embarazarse o impedir el embarazo.",
+    "Impedir el acceso al aborto legal.",
+    "Forzar a la esterilización o uso de métodos anticonceptivos.",
+    "Negar atención médica durante el embarazo no deseado."
+  ],
+  "consecuencias": [
+    "Embarazos no deseados o no planeados.",
+    "Riesgos a la salud física y emocional de la persona.",
+    "Violación a la autonomía corporal.",
+    "Depresión postparto o trauma obstétrico.",
+    "Muerte materna por falta de atención adecuada."
+  ],
+  "senales_alerta": [
+    "No puedes decidir cuándo o si tener hijos.",
+    "Te niegan anticonceptivos o te obligan a usarlos.",
+    "Te impiden acceder a servicios de salud reproductiva.",
+    "Te amenazan si decides abortar o no embarazarte.",
+    "Tu pareja o familia decide por ti sobre tu cuerpo."
+  ],
+  "frases_comunes_victima": [
+    "Me obligó a embarazarme aunque yo no quería.",
+    "No me dejan ir a pedir anticonceptivos.",
+    "No puedo decidir cuántos hijos tener.",
+    "Me dicen que es pecado abortar, incluso siendo legal.",
+    "Después del parto me pusieron un DIU sin avisarme."
+  ],
+  "base_legal": {
+    "Ley de Acceso": "Reconocida como violencia que afecta el derecho de las mujeres a decidir libremente sobre su función reproductiva.",
+    "Constitución y NOM-046": "Garantiza el acceso a servicios de salud reproductiva, incluida la interrupción legal del embarazo en ciertos casos.",
+    "Ley General de Salud": "Establece el derecho a servicios de salud sexual y reproductiva de calidad, con consentimiento informado."
+  },
+  "prevencion": [
+    "Garantizar el acceso a educación sexual integral.",
+    "Promover la autonomía corporal y el consentimiento.",
+    "Eliminar mitos y estigmas sobre la salud reproductiva.",
+    "Capacitar a personal médico con perspectiva de género."
+  ],
+  "que_hacer": [
+    "Buscar información confiable sobre tus derechos reproductivos.",
+    "Acudir a un centro de salud o instancia legal si te niegan servicios.",
+    "Denunciar si fuiste obligada a embarazarte, parir o abortar sin consentimiento.",
+    "Solicitar apoyo psicológico si lo necesitas.",
+    "Acudir a una organización que defienda derechos sexuales y reproductivos."
+  ],
+  "instituciones_apoyo": [
+    "Línea Materna: 800 628 37 62 o al 722 235 86 92",
+    "Línea Mujeres CDMX: 5558 1111",
+    "INMUJERES: (55) 5322 4200 ext. 7205",
+    "Red por los Derechos Sexuales y Reproductivos en México (DDESER): ddeser@ddeser.org o www.ddeser.org"
+  ],
+  "reconocimiento": "Este tipo de violencia atenta directamente contra el derecho a decidir sobre el cuerpo, el embarazo y la maternidad. No siempre es evidente, pero puede tener consecuencias profundas en la vida y salud de las personas.",
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Me pueden obligar a tener hijos?",
+      "respuesta": "No. Nadie puede decidir por ti si quieres o no tener hijos, y cuántos quieres tener."
+    },
+    {
+      "pregunta": "¿Qué hago si me niegan anticonceptivos?",
+      "respuesta": [
+        "Puedes exigir ese derecho en cualquier centro de salud. Si te lo niegan, puedes denunciar ante:",
+        "- Comisión Nacional para Prevenir la Discriminación (CONAPRED): 55 5262 1490 o 800 543 00 33.",
+        "- Centros de Justicia para las Mujeres: https://www.fgjcdmx.gob.mx/nuestros-servicios/en-linea/mp-virtual/centros-de-justicia-para-las-mujeres",
+        "- IMSS: https://www.gob.mx/conapo/documentos/lineamientos-tecnicos-para-la-prescripcion-y-uso-de-metodos-anticonceptivos-en-mexico-310274"
+      ]
+    },
+    {
+      "pregunta": "¿Abortar es legal?",
+      "respuesta": [
+        "Depende del estado donde te encuentres, pero en muchos lugares ya es legal hasta las 12 semanas.",
+        "Consulta información actualizada en: https://gire.org.mx/blog/abortar-en-mexico/"
+      ]
+    }
+  ],
+  "alerta": "Negarte el acceso a decidir sobre tu cuerpo, salud reproductiva o maternidad es violencia. No estás sola: existen organizaciones y leyes que te respaldan.",
+  "recursos": [
+    {
+      "tipo": "Artículo",
+      "titulo": "¿Sabes en qué consiste la #Violencia obstétrica?",
+      "url": "https://www.gob.mx/conavim/articulos/sabes-en-que-consiste-la-violencia-obstetrica?idiom=es"
+    }
+  ],
+  "detector_automatizado": {
+    "palabras_clave": [
+      "me obligaron a embarazarme",
+      "no me dejan usar anticonceptivos",
+      "me hicieron un procedimiento médico sin mi consentimiento",
+      "me pusieron un DIU sin avisarme",
+      "no me dejan abortar",
+      "deciden por mí si tener hijos"
+    ],
+    "emociones_asociadas": ["impotencia", "tristeza", "frustración", "culpa", "enojo"],
+    "sugerir_ayuda_si": true
+  },
+  "etiquetas": ["reproductivos", "embarazo", "aborto", "anticonceptivos", "derechos"],
+  "respuestas_chatbot": {
+    "respuesta_directa": "Eso es Violencia contra los Derechos Reproductivos.",
+    "deteccion": "Podrías estar enfrentando una situación de violencia obstétrica, es decir, una forma de violencia contra tus derechos reproductivos. ¿Quieres que te oriente sobre qué hacer o a dónde acudir?",
+    "validacion": "Tienes derecho a decidir libremente sobre tu cuerpo y maternidad. Nadie puede obligarte o impedirte.",
+    "recomendacion_general": [
+      "Puedes acercarte a:",
+      "GIRE: https://gire.org.mx/",
+      "DDESER: ddeser@ddeser.org",
+      "Centro de Justicia para Mujeres: https://www.fgjcdmx.gob.mx/nuestros-servicios/en-linea/mp-virtual/centros-de-justicia-para-las-mujeres",
+      "O puedes llamar al 800 911 25 11 para orientación."
+    ]
+  }
+}

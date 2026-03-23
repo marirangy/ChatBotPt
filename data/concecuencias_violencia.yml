@@ -1,0 +1,113 @@
+version: "3.1"
+
+nlu:
+
+- intent: consecuencias_psicologicas
+  examples: |
+    - ¿Cuáles son las consecuencias psicológicas de la violencia?
+    - Me siento ansiosa desde que ocurrió, ¿es normal?
+    - ¿Es común tener depresión después de vivir violencia?
+    - ¿Qué efectos emocionales puede tener la violencia?
+    - No duermo bien desde entonces, ¿puede ser por lo que viví?
+    - ¿Cómo afecta la autoestima haber vivido violencia?
+    - ¿Es normal sentir miedo o inseguridad constantemente?
+    - Tengo pensamientos negativos todo el tiempo, ¿es una consecuencia?
+    - ¿La violencia puede causar traumas?
+    - Me cuesta confiar en otras personas, ¿eso es por la violencia?
+
+- intent: consecuencias_fisicas
+  examples: |
+    - ¿Qué daños físicos causa la violencia?
+    - ¿La violencia deja secuelas en el cuerpo?
+    - Me duelen partes del cuerpo después de los golpes, ¿qué hago?
+    - ¿Qué consecuencias de salud puede dejar la violencia física?
+    - ¿Puede causarme enfermedades crónicas?
+    - ¿Qué debo hacer si me lastimaron físicamente?
+    - Me quedó una cicatriz después de la agresión, ¿a dónde voy?
+    - ¿Es común tener dolores de cabeza o estómago por estrés violento?
+    - ¿Qué tipo de lesiones debo documentar si sufrí violencia?
+    - ¿Qué atención médica puedo recibir tras una agresión?
+
+- intent: consecuencias_sociales
+  examples: |
+    - ¿Cómo me puede afectar socialmente vivir violencia?
+    - Ya no quiero ver a mis amigas, ¿es normal?
+    - ¿La violencia afecta mis relaciones personales?
+    - Me aislaron de mi familia, ¿eso es una consecuencia?
+    - Siento vergüenza de contar lo que pasó, ¿es común?
+    - ¿La violencia puede hacer que pierda mis redes de apoyo?
+    - ¿Puedo recuperar mi círculo social después de la violencia?
+    - Me siento sola desde que pasó todo, ¿es por eso?
+    - ¿Qué pasa si la gente no me cree?
+    - ¿Qué efectos tiene el aislamiento forzado?
+
+- intent: consecuencias_economicas
+  examples: |
+    - ¿La violencia puede afectarme económicamente?
+    - Perdí mi trabajo por culpa de la violencia, ¿qué hago?
+    - ¿Es común depender económicamente del agresor?
+    - ¿Me pueden apoyar si me quedé sin ingresos por esto?
+    - ¿Hay consecuencias legales si me niegan pensión?
+    - ¿Qué apoyo hay para mujeres que escapan de situaciones violentas sin dinero?
+    - No tengo cómo mantenerme después de salir de casa
+    - ¿Qué hago si no tengo a dónde ir y no tengo recursos?
+    - ¿Cómo rehacer mi vida económica después de violencia?
+    - ¿La violencia económica también es violencia?
+
+- intent: consecuencias_legales
+  examples: |
+    - ¿Hay consecuencias legales por ejercer violencia?
+    - ¿Qué pasa si denuncio a mi agresor?
+    - ¿Mi caso puede ir a juicio?
+    - ¿Qué sanciones legales enfrentan los agresores?
+    - ¿Puede ir a la cárcel?
+    - ¿Puedo obtener una orden de restricción?
+    - ¿Qué derechos tengo si ya hay una denuncia?
+    - ¿La ley me protege si fui víctima de violencia?
+    - ¿Qué pasa si me amenazan tras denunciar?
+    - ¿Cómo me protejo legalmente después de la agresión?
+
+- intent: consecuencias_largo_plazo
+  examples: |
+    - ¿Qué consecuencias tiene la violencia a largo plazo?
+    - ¿Puede afectarme aunque ya haya pasado tiempo?
+    - Sigo teniendo efectos aunque fue hace años
+    - ¿Es normal seguir recordando lo que pasó después de mucho tiempo?
+    - ¿Cómo afecta la violencia en la vida futura?
+    - ¿Puede afectar mis nuevas relaciones?
+    - ¿Me va a costar volver a confiar?
+    - ¿Qué pasa si nunca hablé de lo que viví?
+    - ¿Puedo sanar completamente?
+    - ¿La violencia me dejó una marca para siempre?
+
+- intent: consecuencias_ninas
+  examples: |
+    - ¿Cómo afecta la violencia a niñas o adolescentes?
+    - Mi hija estuvo expuesta a violencia, ¿cómo le afecta?
+    - ¿Qué pasa si una niña vive violencia en casa?
+    - ¿Puede afectarle en su desarrollo?
+    - ¿Cómo saber si mi hija está afectada emocionalmente?
+    - ¿A dónde puedo llevarla si estuvo expuesta a violencia?
+    - ¿Puede cambiar su comportamiento por lo que vio?
+    - ¿Qué señales muestran las niñas cuando han vivido violencia?
+    - ¿Pueden tener problemas en la escuela?
+    - ¿Cómo ayudo a una niña que sufrió violencia?
+
+- intent: consecuencias_comunidad
+  examples: |
+    - ¿Cómo afecta la violencia a la comunidad?
+    - ¿Qué impacto social tiene la violencia de género?
+    - ¿La violencia genera miedo colectivo?
+    - ¿Qué pasa si muchas mujeres viven violencia en la misma zona?
+    - ¿Cómo puede intervenir la comunidad para evitar más violencia?
+    - ¿Hay consecuencias sociales si no se actúa?
+    - ¿La impunidad agrava el problema?
+    - ¿Qué efecto tiene el silencio colectivo ante la violencia?
+    - ¿Cómo promover una cultura de no violencia en la comunidad?
+    - ¿Qué responsabilidad tiene la sociedad ante estos casos?
+
+- intent: consecuencias_derechos_rep
+  examples: |
+    - ¿Qué consecuencias tiene la violencia contra mis derechos reproductivos?
+    - ¿Cómo me puede afectar esa violencia?
+    - ¿Qué pasa si me niegan decidir sobre mi cuerpo?

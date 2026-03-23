@@ -1,0 +1,224 @@
+version: "3.1"
+
+intents:
+  - saludo
+  - despedida
+  - nlu_fallback
+  - acompanamiento_acompanantes
+  - acompanamiento_general
+  - acompanamiento_legal
+  - acompanamiento_proceso
+  - acompanamiento_psicologico
+  - acompanamiento_seguimiento
+  - acompanamiento_tiempos
+  - alerta_acompanamiento_emergente
+  - alerta_ayuda_inmediata
+  - alerta_lineas_urgencia
+  - alerta_ubicacion_segura
+  - alerta_violencia_en_progreso
+  - consecuencias_comunidad
+  - consecuencias_economicas
+  - consecuencias_fisicas
+  - consecuencias_largo_plazo
+  - consecuencias_legales
+  - consecuencias_ninas
+  - consecuencias_psicologicas
+  - consecuencias_sociales
+  - consecuencias_emocionales
+  - consecuencias_derechos_rep
+  - instituciones_centros_justicia
+  - instituciones_cndh
+  - instituciones_contacto_emergencia
+  - instituciones_fiscalias_especializadas
+  - instituciones_general
+  - instituciones_inmujeres
+  - instituciones_organizaciones_civiles
+  - prevencion_adultos_mayores
+  - prevencion_autocuidado
+  - prevencion_autoproteccion
+  - prevencion_comunidad
+  - prevencion_digital
+  - prevencion_educacion
+  - prevencion_embarazo
+  - prevencion_familia
+  - prevencion_general
+  - prevencion_hombres
+  - prevencion_instituciones
+  - prevencion_interseccional
+  - prevencion_jovenes
+  - prevencion_lugares_seguridad
+  - prevencion_medios
+  - prevencion_pareja
+  - prevencion_trabajo
+  - senales_alerta_aislamiento
+  - senales_alerta_celos_posesividad
+  - senales_alerta_control
+  - senales_alerta_culpabilizacion
+  - senales_alerta_desvalorizacion
+  - senales_alerta_excusas
+  - senales_alerta_miedo
+  - senales_alerta_minimizacion
+  - tipo_violencia_derechos_reproductivos
+  - tipo_violencia_economica
+  - tipo_violencia_feminicida
+  - tipo_violencia_fisica
+  - tipo_violencia_patrimonial
+  - tipo_violencia_psicoemocional
+  - tipo_violencia_sexual
+  - frases_comunes_victima
+  - base_legal_fisica
+  - faq_psicoemocional
+  - faq_derechos_reproductivos
+  - reconocimiento_sexual
+  - recursos_feminicida
+  - lugares_seguridad
+
+actions:
+  - action_answer_violence_type
+
+responses:
+  utter_saludo:
+    - text: "Hola, soy Nima. Estoy aquí para escucharte, orientarte y ayudarte. No estás sola."
+    - text: "Hola, soy Nima. No estás sola. Estoy aquí para ayudarte a identificar la violencia y encontrar apoyo."
+    - text: "Soy Nima. Si estás pasando por algo difícil, quiero que sepas que estás en un espacio seguro."
+    - text: "Hola, soy Nima. Estoy contigo. Mi objetivo es ayudarte a dar pasos hacia tu bienestar y seguridad."
+    - text: "Hola, soy Nima. Mereces vivir libre de miedo y violencia. Estoy aquí para ayudarte a reconocer tus derechos."
+
+  # Acompañamiento
+  utter_acompanamiento_general:
+    - text: "Ofrecemos acompañamiento integral: apoyo legal, psicológico y orientación durante todo el proceso."
+    - text: "No estás sola, podemos acompañarte con asesoría jurídica, apoyo emocional y seguimiento."
+
+  utter_acompanamiento_legal:
+    - text: "En el apartado Directorios de nuestra página encontrarás abogadas que ofrecen asesoría legal gratuita."
+    - text: "Puedes consultar Directorios para contactar abogadas que te orienten en procesos legales."
+    - text: "En CDMX puedes recibir acompañamiento legal gratuito. Te orientamos en denuncias y trámites jurídicos."
+    - text: "Contamos con asesoría legal especializada para mujeres en situación de violencia."
+
+  utter_acompanamiento_psicologico:
+    - text: "Sí, hay apoyo psicológico gratuito. Puedes llamar a la Línea Mujeres (55 5658 1111)."
+    - text: "Puedes encontrar apoyo psicológico en los Directorios de nuestra página, donde hay contactos de psicólogas especializadas."
+    - text: "En el apartado Directorios de nuestra página encontrarás contactos de psicólogos que brindan asesoría psicológica gratuita."
+    - text: "Si necesitas acompañamiento emocional, revisa Directorios: ahí hay psicólogos especializados en apoyo a mujeres."
+
+  utter_acompanamiento_tiempos:
+    - text: "El acompañamiento puede iniciar de inmediato en casos urgentes. En otros casos, la respuesta suele ser en pocos días."
+    - text: "La atención es prioritaria y se busca que sea lo más rápida posible."
+
+  utter_acompanamiento_proceso:
+    - text: "El proceso inicia con una primera entrevista, luego se define si necesitas apoyo legal, psicológico o refugio."
+    - text: "Solo necesitas acercarte o llamar, no es obligatorio un trámite previo."
+
+  utter_acompanamiento_acompanantes:
+    - text: "El acompañamiento lo realizan psicólogas, abogadas y personal especializado en violencia de género."
+    - text: "Siempre será confidencial y puedes expresar tus preferencias sobre quién te acompaña."
+
+  utter_acompanamiento_seguimiento:
+    - text: "Sí, hay seguimiento después del primer contacto. Se busca mantener comunicación constante contigo."
+    - text: "El acompañamiento incluye seguimiento para que no te sientas sola en el proceso."
+
+  # Alertas
+  utter_alerta_acompanamiento_emergente:
+    - text: "En emergencias, puedes pedir acompañamiento inmediato llamando al 911 o a la Línea Mujeres (55 5658 1111)."
+
+  utter_alerta_ayuda_inmediata:
+    - text: "Si estás en peligro, llama al 911 de inmediato. También puedes acudir a un Ministerio Público cercano."
+
+  utter_alerta_lineas_urgencia:
+    - text: "En CDMX tienes la Línea Mujeres (55 5658 1111) disponible 24/7 y el 911 para emergencias."
+
+  utter_alerta_ubicacion_segura:
+    - text: "Busca un lugar seguro como una comisaría, hospital o centro de justicia para mujeres."
+
+  utter_alerta_violencia_en_progreso:
+    - text: "Si la violencia está ocurriendo en este momento, llama al 911 inmediatamente. Tu seguridad es lo más importante."
+
+  # Instituciones
+  utter_instituciones_general:
+    - text: "En CDMX existen instituciones como la Línea Mujeres, Inmujeres y Centros de Justicia para Mujeres."
+
+  utter_instituciones_centros_justicia:
+    - text: "Los Centros de Justicia para Mujeres ofrecen apoyo legal, psicológico y refugio seguro."
+
+  utter_instituciones_cndh:
+    - text: "La CNDH recibe quejas y brinda orientación en casos de violación de derechos humanos."
+
+  utter_instituciones_contacto_emergencia:
+    - text: "En emergencias, llama al 911 o a la Línea Mujeres (55 5658 1111)."
+
+  utter_instituciones_fiscalias_especializadas:
+    - text: "Las Fiscalías Especializadas en CDMX atienden casos de violencia de género y delitos sexuales."
+
+  utter_instituciones_inmujeres:
+    - text: "El Instituto Nacional de las Mujeres (Inmujeres) ofrece programas de apoyo y orientación."
+
+  utter_instituciones_organizaciones_civiles:
+    - text: "Existen organizaciones civiles en CDMX que brindan acompañamiento y refugio a mujeres en situación de violencia."
+
+  # Prevención
+  utter_prevencion_general:
+    - text: "La prevención incluye conocer tus derechos, identificar señales de violencia y fortalecer tu red de apoyo."
+
+  utter_prevencion_autocuidado:
+    - text: "El autocuidado implica cuidar tu salud física y emocional, y buscar espacios seguros."
+    - text: "Para cuidarte mejor: identifica lugares seguros, comparte tu ubicación con alguien de confianza y guarda números de emergencia."
+    - text: "En nuestra sección Recursos encontrarás consejos prácticos de autocuidado y prevención de violencia digital."
+    
+  utter_prevencion_autoproteccion:
+    - text: "La autoprotección significa tener planes de emergencia y saber a quién acudir en caso de riesgo."
+
+  utter_prevencion_comunidad:
+    - text: "La comunidad puede prevenir la violencia apoyando a las mujeres y denunciando situaciones de riesgo."
+
+  utter_prevencion_digital:
+    - text: "Cuida tu seguridad digital: protege tus contraseñas y limita el acceso a tu información personal."
+
+  utter_prevencion_educacion:
+    - text: "La educación en igualdad y respeto es clave para prevenir la violencia de género."
+
+  utter_prevencion_embarazo:
+    - text: "Durante el embarazo, es importante contar con apoyo médico y emocional para prevenir riesgos."
+
+  utter_prevencion_familia:
+    - text: "La familia puede ser un espacio de apoyo, pero también es importante reconocer señales de violencia."
+
+  utter_prevencion_hombres:
+    - text: "La prevención también implica trabajar con hombres para promover relaciones respetuosas y libres de violencia."
+
+  utter_prevencion_instituciones:
+    - text: "Las instituciones educativas y laborales deben promover políticas de prevención y apoyo."
+
+  utter_prevencion_interseccional:
+    - text: "La prevención debe considerar factores como edad, discapacidad, orientación sexual o etnia."
+
+  utter_prevencion_jovenes:
+    - text: "Es importante que las y los jóvenes aprendan a identificar relaciones sanas y libres de violencia."
+
+  utter_prevencion_lugares_seguridad:
+    - text: "Identifica lugares seguros en tu comunidad como hospitales, refugios o centros de justicia."
+    - text: "Puedes consultar el Mapa en nuestra página para ubicar refugios e instituciones cercanas."
+
+  # Fallback empático
+  utter_default:
+    - text: "Entiendo que buscas información importante. Aunque no tengo esa respuesta exacta, en la sección Recursos de nuestra página encontrarás más información sobre los tipos de violencia y cómo denunciar en CDMX."
+    - text: "Entiendo que buscas información importante. Aunque no tenga ese dato exacto aquí, en nuestra página puedes encontrar: Recursos, Directorios y Mapa."
+    - text: "No tengo esa información precisa, pero quiero ayudarte. En la sección Directorios de la página puedes encontrar contactos de abogadas y psicólogas."
+    - text: "Lo que me preguntas es muy valioso. Aunque no tenga el dato exacto, en el Mapa de nuestra página podrás localizar refugios, instituciones y casas de la mujer."
+    - text: "Si lo que necesitas no está aquí, recuerda que en nuestra página tienes las secciones de Recursos, Directorios y Mapa, diseñadas para darte apoyo claro y confiable."
+
+  # Frases de apoyo emocional
+  utter_frases_comunes_victima:
+    - text: "Lo que estás viviendo no es tu culpa. Mereces apoyo y seguridad."
+    - text: "No estás sola, hay instituciones y personas listas para ayudarte."
+    - text: "Tus sentimientos son válidos. Buscar ayuda es un paso muy importante."
+    - text: "Reconocer lo que vives es un acto de valentía. Hay apoyo disponible para ti."
+
+  # Mensajes de cierre positivo
+  utter_despedida:
+    - text: "Gracias por confiar en mí. Recuerda que no estás sola y hay apoyo disponible."
+    - text: "Estoy aquí para acompañarte. Si necesitas más información, puedes preguntar en cualquier momento."
+    - text: "Tu seguridad y bienestar son lo más importante. No dudes en buscar ayuda cuando lo necesites."
+ 
+  utter_lugares_seguridad:
+    - text: "Puedes consultar el Mapa en nuestra página para ubicar refugios y centros de justicia cercanos."
+    - text: "Los lugares seguros incluyen refugios y centros de justicia. Encuéntralos en el Mapa de nuestra página."

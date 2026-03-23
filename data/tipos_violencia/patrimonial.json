@@ -1,0 +1,124 @@
+{
+  "nombre": "Violencia Patrimonial",
+  "categoria": "Tipo",
+  "descripcion": "Toda acción u omisión que ocasiona daño o menoscabo en los bienes muebles o inmuebles de una persona, así como la sustracción, destrucción, desaparición, ocultamiento o retención de objetos, documentos personales, bienes o recursos económicos.",
+  "ejemplos": [
+    "Destrucción de objetos personales",
+    "Retención de documentos de identidad",
+    "Ocultamiento de escrituras o cuentas bancarias",
+    "Sustracción de bienes sin consentimiento",
+    "Impedir el acceso a propiedades compartidas"
+  ],
+  "consecuencias": [
+    "Pérdida de patrimonio personal",
+    "Dependencia económica o emocional",
+    "Dificultades legales y de identidad",
+    "Aislamiento o control material",
+    "Vulneración del derecho a la propiedad"
+  ],
+  "senales_alerta": [
+    "No puedes acceder a tus documentos o cuentas.",
+    "Alguien daña o destruye tus cosas como castigo.",
+    "Te amenazan con quitarte propiedades o bienes.",
+    "No tienes control sobre tus recursos materiales.",
+    "Te impiden recuperar pertenencias después de una separación."
+  ],
+  "frases_comunes_victima": [
+    "No me quiere devolver mis cosas",
+    "Dice que todo lo que hay en casa es suyo",
+    "Me rompió todo lo que compré",
+    "Ocultó mis papeles y no sé dónde están",
+    "No me deja entrar a la casa aunque yo vivía ahí"
+  ],
+  "base_legal": {
+    "Ley de Acceso": "Reconocida como forma de violencia al dañar o apropiarse del patrimonio o bienes personales.",
+    "Código Penal (Art. 201)": "Se incluye como parte de violencia familiar si hay daño patrimonial. Puede implicar penas de prisión.",
+    "Código de Procedimientos Penales": "Permite ordenar medidas de restitución, protección o reparación del daño."
+  },
+  "prevencion": [
+    "Proteger tus documentos y bienes importantes.",
+    "Separar cuentas y recursos personales si es necesario.",
+    "Conocer tus derechos sobre bienes y propiedades.",
+    "Buscar asesoría jurídica ante cualquier señal de control patrimonial."
+  ],
+  "que_hacer": [
+    "Acudir al Ministerio Público o Fiscalía.",
+    "Solicitar medidas de protección o restitución.",
+    "Buscar asesoría jurídica gratuita.",
+    "Llamar a una línea de ayuda.",
+    "Guardar evidencia de la violencia (fotos, recibos, mensajes)."
+  ],
+  "instituciones_apoyo": [
+    "Línea Mujeres CDMX: 5658 1111",
+    "Centro de Justicia para Mujeres",
+    "INMUJERES",
+    "Línea Nacional Contra la Violencia: 800 911 25 11"
+  ],
+  "reconocimiento": "Este tipo de violencia no siempre es visible físicamente, pero impacta gravemente la autonomía económica y legal de la víctima. El control de bienes y documentos es una forma de dominación.",
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Puede alguien quitarme mis cosas si vivimos juntos?",
+      "respuesta": "No. Aunque vivan juntos, nadie puede apropiarse o dañar tus bienes sin tu consentimiento."
+    },
+    {
+      "pregunta": "¿Puedo denunciar si me ocultan documentos o propiedades?",
+      "respuesta": "Sí. El ocultamiento o retención de tus pertenencias personales es una forma de violencia patrimonial y puede denunciarse."
+    },
+    {
+      "pregunta": "¿Aunque no estemos casados, cuenta como violencia?",
+      "respuesta": "Sí. La violencia patrimonial puede darse en cualquier relación, independientemente del estado civil."
+    }
+  ],
+  "alerta": "La violencia patrimonial puede usarse para ejercer control o venganza. Si alguien daña, retiene o usa tus pertenencias para hacerte daño, busca ayuda.",
+  "recursos": [
+    {
+      "tipo": "video",
+      "titulo": "¿Qué es la violencia patrimonial?",
+      "url": ""
+    },
+    {
+      "tipo": "pdf",
+      "titulo": "Guía para víctimas de violencia patrimonial",
+      "url": ""
+    }
+  ],
+  "detector_automatizado": {
+    "palabras_clave": [
+      "me quitó mis cosas",
+      "me quito mis cosas",
+      "me rompió mis cosas",
+      "me rompio mis cosas",
+      "me oculta mis documentos",
+      "me destruye mis pertenencias",
+      "no me deja acceder a mi dinero",
+      "me escondió mis papeles",
+      "me escondio mis papeles",
+      "no me devuelve mis cosas",
+      "me dañó mis bienes",
+      "rompió mis cosas a propósito"
+    ],
+    "emociones_asociadas": [
+      "frustración",
+      "impotencia",
+      "miedo",
+      "enojo"
+    ],
+    "sugerir_ayuda_si": true
+  },
+  "etiquetas": [
+    "patrimonial",
+    "bienes",
+    "control",
+    "documentos",
+    "violencia"
+  ],
+  "respuestas_chatbot": {
+    "respuesta_directa": "Eso es Violencia Patrimonial.",
+    "validacion": "Tus bienes y documentos son tuyos, nadie puede retenerlos.",
+    "recomendacion_general": [
+      "En la sección de 'Directorios' puedes encontrar asesoría legal gratuita.",
+      "En el 'Mapa' puedes ver instituciones y refugios que brindan apoyo.",
+      "Denuncia en el Ministerio Público o llama al 800 911 25 11."
+    ]
+  }
+}

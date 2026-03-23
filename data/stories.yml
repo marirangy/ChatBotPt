@@ -1,0 +1,538 @@
+version: "3.1"
+
+stories:
+
+# --- SALUDO ---
+- story: Inicio del chatbot con saludo
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+
+# --- VIOLENCIA REPRODUCTIVA ---
+- story: Dudas sobre violencia reproductiva y consecuencias
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+    - intent: consecuencias_legales
+    - action: action_answer_violence_type
+    - intent: consecuencias_derechos_rep
+    - action: action_answer_violence_type
+    - intent: consecuencias_fisicas
+    - action: action_answer_violence_type
+
+# --- VIOLENCIA ECONÓMICA ---
+- story: Dudas sobre violencia económica
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+
+# --- VIOLENCIA FEMINICIDA ---
+- story: Reporte de violencia feminicida con urgencia
+  steps:
+    - intent: tipo_violencia_feminicida
+    - action: action_answer_violence_type
+    - intent: alerta_lineas_urgencia
+    - action: action_answer_violence_type
+
+# --- VIOLENCIA FÍSICA ---
+- story: Violencia física y contacto de emergencia
+  steps:
+    - intent: tipo_violencia_fisica
+    - action: action_answer_violence_type
+    - intent: instituciones_contacto_emergencia
+    - action: action_answer_violence_type
+
+# --- VIOLENCIA PATRIMONIAL ---
+- story: Violencia patrimonial y búsqueda de instituciones
+  steps:
+    - intent: tipo_violencia_patrimonial
+    - action: action_answer_violence_type
+    - intent: instituciones_centros_justicia
+    - action: action_answer_violence_type
+
+# --- VIOLENCIA PSICOEMOCIONAL ---
+- story: Violencia psicoemocional y señales de alerta
+  steps:
+    - intent: tipo_violencia_psicoemocional
+    - action: action_answer_violence_type
+    - intent: senales_alerta_aislamiento
+    - action: action_answer_violence_type
+
+# --- VIOLENCIA SEXUAL ---
+- story: Violencia sexual
+  steps:
+    - intent: tipo_violencia_sexual
+    - action: action_answer_violence_type
+
+# --- PREVENCIÓN GENERAL ---
+- story: cuales son las formas de prevencion que se pueden tomar para la violencia psicoemocional, física y feminicida? 
+  steps:
+    - intent: prevencion_general
+    - action: action_answer_violence_type
+    - intent: prevencion_autoproteccion
+    - action: action_answer_violence_type
+    - intent: prevencion_hombres
+    - action: action_answer_violence_type
+  
+- story: ¿cuáles son las medidas de prevención que puedo tomar en contra de la violencia patrimonial?
+  steps:
+    - intent: prevencion_autoproteccion
+    - action: action_answer_violence_type
+
+- story: Medidas de prevencion que se pueden tomar para la violencia sexual
+  steps:
+    - intent: prevencion_autoproteccion
+    - action: action_answer_violence_type
+    - intent: prevencion_digital
+    - action: action_answer_violence_type
+    - intent: prevencion_medios
+    - action: action_answer_violence_type
+
+- story: medidas de prevencion para la violencia económica
+  steps:
+    - intent: prevencion_trabajo
+    - action: action_answer_violence_type
+    - intent: prevencion_educacion
+    - action: action_answer_violence_type
+
+# --- CONSECUENCIAS PSICOEMOCIONALES ---
+- story: Consecuencias psicoemocionales
+  steps:
+    - intent: tipo_violencia_psicoemocional
+    - action: action_answer_violence_type
+    - intent: consecuencias_psicologicas
+    - action: action_answer_violence_type
+    - intent: consecuencias_sociales
+    - action: action_answer_violence_type
+    - intent: consecuencias_largo_plazo
+    - action: action_answer_violence_type
+
+# --- CONSECUENCIAS FÍSICAS ---
+- story: Consecuencias violencia física
+  steps:
+    - intent: tipo_violencia_fisica
+    - action: action_answer_violence_type
+    - intent: consecuencias_fisicas
+    - action: action_answer_violence_type
+    - intent: consecuencias_psicologicas
+    - action: action_answer_violence_type
+    - intent: consecuencias_emocionales
+    - action: action_answer_violence_type
+    - intent: consecuencias_largo_plazo
+    - action: action_answer_violence_type
+
+# --- CONSECUENCIAS SEXUAL ---
+- story: Consecuencias violencia sexual
+  steps:
+    - intent: tipo_violencia_sexual
+    - action: action_answer_violence_type
+    - intent: consecuencias_psicologicas
+    - action: action_answer_violence_type
+    - intent: consecuencias_fisicas
+    - action: action_answer_violence_type
+    - intent: consecuencias_sociales
+    - action: action_answer_violence_type
+    - intent: consecuencias_largo_plazo
+    - action: action_answer_violence_type
+
+# --- CONSECUENCIAS ECONÓMICA ---
+- story: Consecuencias violencia económica
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+    - intent: consecuencias_economicas
+    - action: action_answer_violence_type
+    - intent: consecuencias_emocionales
+    - action: action_answer_violence_type
+
+# --- CONSECUENCIAS PATRIMONIAL ---
+- story: Consecuencias violencia patrimonial
+  steps:
+    - intent: tipo_violencia_patrimonial
+    - action: action_answer_violence_type
+    - intent: consecuencias_legales
+    - action: action_answer_violence_type
+    - intent: consecuencias_fisicas
+    - action: action_answer_violence_type
+
+# --- CONSECUENCIAS FEMINICIDA ---
+- story: Consecuencias violencia feminicida
+  steps:
+    - intent: tipo_violencia_feminicida
+    - action: action_answer_violence_type
+    - intent: consecuencias_comunidad
+    - action: action_answer_violence_type
+    - intent: consecuencias_ninas
+    - action: action_answer_violence_type
+
+# --- CONSECUENCIAS DERECHOS REPRODUCTIVOS ---
+- story: Consecuencias derechos reproductivos
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+    - intent: consecuencias_legales
+    - action: action_answer_violence_type
+    - intent: consecuencias_fisicas
+    - action: action_answer_violence_type
+    - intent: consecuencias_psicologicas
+    - action: action_answer_violence_type
+
+# --- DETECCIÓN VIOLENCIA FÍSICA POR PALABRAS CLAVE ---
+- story: Detecta violencia física por intent (me pegó)
+  steps:
+    - intent: tipo_violencia_fisica
+    - action: action_answer_violence_type
+
+- story: Detecta violencia física por palabras clave (sin intent) - me pego
+  steps:
+    - intent: tipo_violencia_fisica
+    - action: action_answer_violence_type
+
+- story: Detecta violencia física por palabras clave (presente) - me golpea
+  steps:
+    - intent: tipo_violencia_fisica
+    - action: action_answer_violence_type
+
+- story: Violencia física por palabras clave (empujó y lanza cosas) + contacto
+  steps:
+    - intent: tipo_violencia_fisica
+    - action: action_answer_violence_type
+    - intent: instituciones_contacto_emergencia
+    - action: action_answer_violence_type
+
+# ==============================
+# Nuevas historias: Derechos Reproductivos
+# ==============================
+
+- story: Detecta derechos reproductivos por intent
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+
+- story: DR por palabras clave (sin intent) - no me dejan usar anticonceptivos
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+
+- story: DR por palabras clave (sin intent) - me obligaron a embarazarme
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+
+- story: DR por palabras clave (sin intent) - me pusieron un DIU sin avisarme
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+
+- story: DR por palabras clave (sin intent) - no me dejan abortar
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+
+- story: DR por palabras clave (sin intent) - deciden por mi si tener hijos
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+
+# Flujo multi-turno: respuesta directa + qué hacer + consecuencias + base legal
+- story: DR multi-turno con pasos y consecuencias
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+    - intent: acompanamiento_proceso
+    - action: action_answer_violence_type
+    - intent: consecuencias_derechos_rep
+    - action: action_answer_violence_type
+    - intent: consecuencias_psicologicas
+    - action: action_answer_violence_type
+    - intent: instituciones_general
+    - action: action_answer_violence_type
+
+# Pregunta frecuente habitual
+- story: DR FAQ - abortar es legal
+  steps:
+    - intent: faq_derechos_reproductivos
+    - action: action_answer_violence_type
+
+# Señales de alerta relacionadas
+- story: DR señales de alerta
+  steps:
+    - intent: tipo_violencia_derechos_reproductivos
+    - action: action_answer_violence_type
+    - intent: senales_alerta_control
+    - action: action_answer_violence_type
+
+# ==============================
+# Nuevas historias: Violencia Económica
+# ==============================
+
+- story: Económica por intent
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+
+- story: Económica por palabras clave - no me deja trabajar
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+
+- story: Económica por palabras clave - me controla el dinero
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+
+- story: Económica por palabras clave - no me da dinero
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+
+- story: Económica por palabras clave - me obliga a entregar mi sueldo
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+
+- story: Económica por palabras clave - me endeuda y usa mis tarjetas
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+
+# Multi-turno: respuesta directa + qué hacer + instituciones
+- story: Económica multi-turno con pasos e instituciones
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+    - intent: acompanamiento_general
+    - action: action_answer_violence_type
+    - intent: instituciones_general
+    - action: action_answer_violence_type
+
+# FAQ típica
+- story: Económica FAQ - si no me deja trabajar es violencia economica
+  steps:
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+
+# ==============================
+# Nuevas historias: Violencia Feminicida
+# ==============================
+
+- story: Feminicida por intent
+  steps:
+    - intent: tipo_violencia_feminicida
+    - action: action_answer_violence_type
+
+- story: Feminicida por palabras clave - me amenazó de muerte
+  steps:
+    - intent: tipo_violencia_feminicida
+    - action: action_answer_violence_type
+
+- story: Feminicida por palabras clave - tengo miedo por mi vida
+  steps:
+    - intent: tipo_violencia_feminicida
+    - action: action_answer_violence_type
+
+- story: Feminicida por palabras clave - desaparecieron a una amiga
+  steps:
+    - intent: tipo_violencia_feminicida
+    - action: action_answer_violence_type
+
+- story: Feminicida por palabras clave - la policía no me ayudó
+  steps:
+    - intent: tipo_violencia_feminicida
+    - action: action_answer_violence_type
+
+# Flujo multi-turno: medidas e instituciones
+- story: Feminicida multi-turno con medidas e instituciones
+  steps:
+    - intent: tipo_violencia_feminicida
+    - action: action_answer_violence_type
+    - intent: acompanamiento_general
+    - action: action_answer_violence_type
+    - intent: instituciones_general
+    - action: action_answer_violence_type
+
+# ==============================
+# Nuevas historias: Violencia Patrimonial
+# ==============================
+
+- story: Patrimonial por intent
+  steps:
+    - intent: tipo_violencia_patrimonial
+    - action: action_answer_violence_type
+
+- story: Patrimonial por palabras clave - me quitó mis cosas
+  steps:
+    - intent: tipo_violencia_patrimonial
+    - action: action_answer_violence_type
+
+- story: Patrimonial por palabras clave - me oculta mis documentos
+  steps:
+    - intent: tipo_violencia_patrimonial
+    - action: action_answer_violence_type
+
+- story: Patrimonial por palabras clave - me rompió mis cosas
+  steps:
+    - intent: tipo_violencia_patrimonial
+    - action: action_answer_violence_type
+
+- story: Patrimonial multi-turno con instituciones
+  steps:
+    - intent: tipo_violencia_patrimonial
+    - action: action_answer_violence_type
+    - intent: acompanamiento_general
+    - action: action_answer_violence_type
+    - intent: instituciones_general
+    - action: action_answer_violence_type
+
+# ==============================
+# Nuevas historias: Violencia Psicoemocional
+# ==============================
+
+- story: Psicoemocional por intent
+  steps:
+    - intent: tipo_violencia_psicoemocional
+    - action: action_answer_violence_type
+
+- story: Psicoemocional por palabras clave - me humilla
+  steps:
+    - intent: tipo_violencia_psicoemocional
+    - action: action_answer_violence_type
+
+- story: Psicoemocional por palabras clave - me insulta
+  steps:
+    - intent: tipo_violencia_psicoemocional
+    - action: action_answer_violence_type
+
+- story: Psicoemocional por palabras clave - me hace sentir inútil
+  steps:
+    - intent: tipo_violencia_psicoemocional
+    - action: action_answer_violence_type
+
+- story: Psicoemocional multi-turno con acompañamiento
+  steps:
+    - intent: tipo_violencia_psicoemocional
+    - action: action_answer_violence_type
+    - intent: acompanamiento_general
+    - action: action_answer_violence_type
+    - intent: instituciones_general
+    - action: action_answer_violence_type
+
+# ==============================
+# Nuevas historias: Violencia Sexual
+# ==============================
+
+- story: Sexual por intent
+  steps:
+    - intent: tipo_violencia_sexual
+    - action: action_answer_violence_type
+
+- story: Sexual por palabras clave - me tocó sin permiso
+  steps:
+    - intent: tipo_violencia_sexual
+    - action: action_answer_violence_type
+
+- story: Sexual por palabras clave - me obligó a tener relaciones
+  steps:
+    - intent: tipo_violencia_sexual
+    - action: action_answer_violence_type
+
+- story: Sexual por palabras clave - me pide fotos íntimas
+  steps:
+    - intent: tipo_violencia_sexual
+    - action: action_answer_violence_type
+
+- story: Sexual multi-turno con orientación e instituciones
+  steps:
+    - intent: tipo_violencia_sexual
+    - action: action_answer_violence_type
+    - intent: acompanamiento_general
+    - action: action_answer_violence_type
+    - intent: instituciones_general
+    - action: action_answer_violence_type
+
+# --- ACOMPAÑAMIENTO ---
+- story: Pregunta sobre acompañamiento general
+  steps:
+    - intent: acompanamiento_general
+    - action: action_answer_violence_type
+
+- story: Pregunta sobre acompañamiento legal
+  steps:
+    - intent: acompanamiento_legal
+    - action: action_answer_violence_type
+
+- story: Pregunta sobre acompañamiento psicológico
+  steps:
+    - intent: acompanamiento_psicologico
+    - action: action_answer_violence_type
+
+- story: Pregunta sobre acompañamiento tiempos
+  steps:
+    - intent: acompanamiento_tiempos
+    - action: action_answer_violence_type
+
+- story: Pregunta sobre acompañamiento proceso
+  steps:
+    - intent: acompanamiento_proceso
+    - action: action_answer_violence_type
+
+- story: Pregunta sobre acompañamiento acompañantes
+  steps:
+    - intent: acompanamiento_acompanantes
+    - action: action_answer_violence_type
+
+- story: Pregunta sobre acompañamiento seguimiento
+  steps:
+    - intent: acompanamiento_seguimiento
+    - action: action_answer_violence_type
+
+# --- ALERTAS ---
+- story: Solicita ayuda inmediata
+  steps:
+    - intent: alerta_ayuda_inmediata
+    - action: action_answer_violence_type
+
+- story: Solicita líneas de urgencia
+  steps:
+    - intent: alerta_lineas_urgencia
+    - action: action_answer_violence_type
+
+- story: Solicita ubicación segura
+  steps:
+    - intent: alerta_ubicacion_segura
+    - action: action_answer_violence_type
+
+- story: Violencia en progreso
+  steps:
+    - intent: alerta_violencia_en_progreso
+    - action: action_answer_violence_type
+
+# --- FALLBACK EMPÁTICO ---
+- story: Fallback empático
+  steps:
+    - intent: nlu_fallback
+    - action: utter_default
+
+# --- FRASES DE APOYO ---
+- story: Frases comunes de víctima
+  steps:
+    - intent: frases_comunes_victima
+    - action: action_answer_violence_type
+
+# --- DESPEDIDA ---
+- story: Despedida
+  steps:
+    - intent: despedida
+    - action: utter_despedida
+
+# --- PREVENCIÓN ---
+- story: prevención y autocuidado
+  steps:
+    - intent: prevencion_autocuidado
+    - action: action_answer_violence_type
+
+# --- LUGARES SEGUROS ---
+- story: lugares seguros
+  steps:
+    - intent: lugares_seguridad
+    - action: action_answer_violence_type

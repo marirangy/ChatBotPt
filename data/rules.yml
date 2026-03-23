@@ -1,0 +1,160 @@
+version: "3.1"
+
+rules:
+
+
+- rule: Responder a violencia contra derechos reproductivos
+  steps:
+  - intent: tipo_violencia_derechos_reproductivos
+  - action: action_answer_violence_type
+
+
+- rule: Responder a violencia economica
+  steps: 
+    - intent: tipo_violencia_economica
+    - action: action_answer_violence_type
+
+
+- rule: Responder a violencia feminicida
+  steps:
+  - intent: tipo_violencia_feminicida
+  - action: action_answer_violence_type
+
+
+- rule: Responder a violencia física
+  steps:
+    - intent: tipo_violencia_fisica
+    - action: action_answer_violence_type
+
+
+- rule: Responder a violencia patrimonial
+  steps:
+    - intent: tipo_violencia_patrimonial
+    - action: action_answer_violence_type
+
+
+- rule: Responder a violencia psicoemocional
+  steps:
+    - intent: tipo_violencia_psicoemocional
+    - action: action_answer_violence_type
+
+
+- rule: Responder a violencia sexual
+  steps:
+  - intent: tipo_violencia_sexual
+  - action: action_answer_violence_type
+
+
+- rule: Responder que instituciones se puede acudir
+  steps:
+    - intent: instituciones_general
+    - action: action_answer_violence_type
+
+
+- rule: Alerta - ayuda inmediata
+  steps:
+    - intent: alerta_ayuda_inmediata
+    - action: action_answer_violence_type
+
+- rule: Alerta - líneas de urgencia
+  steps:
+    - intent: alerta_lineas_urgencia
+    - action: action_answer_violence_type
+
+- rule: Alerta - ubicación segura
+  steps:
+    - intent: alerta_ubicacion_segura
+    - action: action_answer_violence_type
+
+- rule: Alerta - acompañamiento emergente
+  steps:
+    - intent: alerta_acompanamiento_emergente
+    - action: action_answer_violence_type
+
+- rule: Alerta - violencia en progreso
+  steps:
+    - intent: alerta_violencia_en_progreso
+    - action: action_answer_violence_type
+
+
+
+
+- rule: Acompañamiento general
+  steps:
+    - intent: acompanamiento_general
+    - action: action_answer_violence_type
+
+- rule: Acompañamiento legal
+  steps:
+    - intent: acompanamiento_legal
+    - action: action_answer_violence_type
+
+- rule: Acompañamiento psicológico
+  steps:
+    - intent: acompanamiento_psicologico
+    - action: action_answer_violence_type
+
+- rule: Acompañamiento tiempos
+  steps:
+    - intent: acompanamiento_tiempos
+    - action: action_answer_violence_type
+
+- rule: Acompañamiento proceso
+  steps:
+    - intent: acompanamiento_proceso
+    - action: action_answer_violence_type
+
+- rule: Acompañamiento acompañantes
+  steps:
+    - intent: acompanamiento_acompanantes
+    - action: action_answer_violence_type
+
+- rule: Acompañamiento seguimiento
+  steps:
+    - intent: acompanamiento_seguimiento
+    - action: action_answer_violence_type
+
+- rule: Mostrar señales de alerta
+  steps:
+    - intent: senales_alerta_control
+    - action: action_answer_violence_type
+
+- rule: Mostrar consecuencias de violencia económica
+  steps:
+    - intent: consecuencias_economicas
+    - action: action_answer_violence_type
+
+- rule: Mostrar frases comunes de víctima
+  steps:
+    - intent: frases_comunes_victima
+    - action: action_answer_violence_type
+
+- rule: Mostrar instituciones de apoyo para violencia sexual
+  steps:
+    - intent: instituciones_organizaciones_civiles
+    - action: action_answer_violence_type
+
+- rule: Qué hacer ante violencia patrimonial
+  steps:
+    - intent: acompanamiento_proceso
+    - action: action_answer_violence_type
+
+- rule: Mostrar base legal
+  steps:
+    - intent: base_legal_fisica
+    - action: action_answer_violence_type
+
+- rule: Mostrar preguntas frecuentes
+  steps:
+    - intent: faq_psicoemocional
+    - action: action_answer_violence_type
+
+- rule: Mostrar reconocimiento de violencia
+  steps:
+    - intent: reconocimiento_sexual
+    - action: action_answer_violence_type
+
+- rule: Mostrar recursos
+  steps:
+    - intent: recursos_feminicida
+    - action: action_answer_violence_type

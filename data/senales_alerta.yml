@@ -1,0 +1,126 @@
+version: "3.1"
+
+nlu:
+
+- intent: senales_alerta_control
+  examples: |
+    - me revisa el celular todo el tiempo
+    - no me deja tener, ni hablar con mis amigos
+    - me dice como vestirme
+    - se enoja si salgo sin avisarle
+    - quiere saber donde estoy a cada momento
+    - me pide mis contraseñas
+    - no puedo publicar nada en mis redes sin que lo apruebe
+    - me obliga a enviarle mi ubicación en tiempo real 
+    - me vigila cuando salgo
+    - me exige que le responda de inmediato 
+    - revisa con quién hablo por mensaje
+
+- intent: senales_alerta_aislamiento
+  examples: |
+    - no me deja ver a mi familia 
+    - dice que mis amigas no me convienen 
+    - dice que mis amigas me quieren poner en su contra
+    - ya no salgo con nadie, solo con él
+    - me siento sola desde que estoy con él
+    - se molesta si paso tiempo con otras personas
+    - no quiere que visite a mi mamá, o a mis hermanos
+    - me convence de no ver a mis amigos
+    - me dice que solo lo necesito a él
+    - me hace sentir culpable si salgo sin él- me dice que mis amigas son malas influencias.
+    - me hace comentarios negativos sobre mi familia constantemente
+    - me hace dudar de mis seres queridos
+    - me prohíbe ver a ciertos familiares
+
+- intent: senales_alerta_desvalorizacion
+  examples: |
+    - me dice que soy tonta
+    - se burla de mí frente a otros
+    - me hace sentir que no valgo nada
+    - nunca reconoce mis logros
+    - todo lo que hago está mal para él
+    - me dice que no sirvo para nada
+    - me compara con otras mujeres
+    - minimiza mis opiniones
+    - siempre me hace sentir menos 
+    - me hace dudar de mis capacidades
+    - dice que sin él no podría vivir
+    - se ríe cuando me esfuerzo en algo
+    - me hace sentir inutil
+
+- intent: senales_alerta_celos_posesividad
+  examples: |
+    - se pone celoso si hablo con alguien
+    - dice que solo soy suya
+    - no soporta que otros me miren
+    - cree que lo voy a engañar todo el tiempo
+    - me acusa de cosas que no hago
+    - me pregunta todo el tiempo dónde estuve
+    - me dice que no me vista de cierta manera por que atraigo miradas
+    - cree que coqueteo sin razón
+    - se molesta si saludo a mis amigos
+    - me exige que no hable con hombres
+    - me cuestiona por seguir a ciertar personas en redes
+    - cree que cualquier gesto mío es coqueteo
+    - no me deja hablar con compañeros del trabajo
+
+- intent: senales_alerta_minimizacion
+  examples: |
+    - dice que exagero cuando me siento mal o intento explicarle como me siento
+    - todo lo que pasa "no es para tanto"
+    - me hace sentir culpable por quejarme
+    - dice que me invento cosas
+    - me dice que así son todas las relaciones
+    - siempre le resta importancia a lo que siento
+    - me dice que soy loca
+    - se burla de mis emociones
+    - me dice que soy dramática
+    - me ignora cuando expreso cómo me siento
+    - dice que me hago la víctima
+    - me dice que todo está en mi cabeza
+
+- intent: senales_alerta_culpabilizacion
+  examples: |
+    - siempre me culpa de todo
+    - dice que si me pega es por mi culpa
+    - me hace responsable de sus problemas
+    - todo lo malo que pasa es por mí
+    - dice que lo provoco
+    - me culpa si se enoja
+    - dice que por mi actitud lo obligo a reaccionar
+    - nunca acepta sus errores
+    - dice que soy responsable de su estrés
+    - me culpa si lo corren del trabajo
+    - siempre dice que yo lo saco de quicio
+    - me culpa si él está mal con su familia
+
+- intent: senales_alerta_excusas
+  examples: |
+    - dice que estaba borracho
+    - me lastima y luego pide perdón
+    - siempre tiene una excusa para lo que hace
+    - jura que va a cambiar pero vuelve a hacerlo
+    - dice que es por estrés
+    - dice que no fue su intención
+    - me regaña y luego me compra regalos
+    - me dice que no sabe por qué reacciona así
+    - dice que es por su infancia
+    - culpa a los demás por su comportamiento
+    - dice que está bajo presión
+    - dice que lo hace por amor
+
+- intent: senales_alerta_miedo
+  examples: |
+    - tengo miedo de cómo reaccione
+    - me asusta cuando grita
+    - no sé cómo decirle algo sin que se enoje
+    - camino con cuidado para que no se moleste
+    - siento que estoy pisando huevos todo el tiempo
+    - prefiero callar para evitar problemas
+    - me aterra decirle que no
+    - no me siento segura con él
+    - tengo ansiedad cuando va a llegar
+    - me paralizo cuando se enoja
+    - no puedo dormir por pensar en sus reacciones
+    - tengo miedo de que me haga daño
+    - me da pánico contradecirlo

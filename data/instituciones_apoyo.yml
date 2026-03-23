@@ -1,0 +1,60 @@
+version: "3.1"
+
+nlu:
+
+- intent: instituciones_general
+  examples: |
+    - ¿A qué instituciones puedo acudir si sufro violencia?
+    - ¿Qué lugares ofrecen ayuda a mujeres víctimas de violencia?
+    - ¿Quién puede ayudarme legalmente?
+    - ¿Dónde puedo recibir apoyo psicológico si vivo violencia?
+    - ¿Qué instituciones brindan ayuda gratuita?
+
+- intent: instituciones_contacto_emergencia
+  examples: |
+    - ¿Cuál es el número de emergencia?
+    - ¿Dónde llamo si estoy en peligro?
+    - ¿Me puedes dar el teléfono de ayuda para mujeres?
+    - ¿Existe una línea para denunciar violencia?
+    - Necesito un número para reportar violencia familiar
+
+- intent: instituciones_centros_justicia
+  examples: |
+    - ¿Qué es un Centro de Justicia para Mujeres?
+    - ¿En qué me ayuda un centro de justicia para mujeres?
+    - ¿Dónde queda el centro de justicia más cercano?
+    - ¿Qué servicios ofrecen los centros de justicia para mujeres?
+    - ¿Puedo ir a un centro de justicia si tengo miedo?
+
+- intent: instituciones_fiscalias_especializadas
+  examples: |
+    - ¿Qué es la Fiscalía Especializada en Feminicidio?
+    - ¿Qué hace la fiscalía para proteger a las mujeres?
+    - ¿Dónde puedo denunciar un feminicidio?
+    - ¿Cómo me protege la fiscalía?
+    - ¿Hay una fiscalía que atienda casos de violencia de género?
+
+- intent: instituciones_inmujeres
+  examples: |
+    - ¿Qué es INMUJERES?
+    - ¿INMUJERES me puede ayudar si sufro violencia?
+    - ¿Qué servicios ofrece INMUJERES?
+    - ¿INMUJERES atiende casos legales?
+    - ¿Dónde está el Instituto Nacional de las Mujeres?
+
+- intent: instituciones_cndh
+  examples: |
+    - ¿La CNDH puede ayudarme si no me hacen caso?
+    - ¿Qué hace la Comisión Nacional de los Derechos Humanos?
+    - ¿Puedo quejarme ante la CNDH si no me atendieron?
+    - ¿Dónde está la CNDH?
+    - ¿La CNDH protege a mujeres víctimas de violencia?
+
+- intent: instituciones_organizaciones_civiles
+  examples: |
+    - ¿Conoces alguna organización que ayude a mujeres?
+    - ¿Hay asociaciones civiles que acompañen a víctimas?
+    - ¿Qué ONG ayudan a mujeres violentadas?
+    - ¿Dónde encuentro apoyo legal gratuito?
+    - ¿Existen colectivos que apoyen a mujeres?
+

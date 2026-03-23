@@ -1,0 +1,12 @@
+{
+  "nombre": "Acompañamiento Psicológico",
+  "respuestas_chatbot": {
+    "respuesta_directa": "Sí, hay apoyo psicológico disponible.",
+    "validacion": "No estás sola, puedes recibir terapia gratuita con profesionales especializados.",
+    "recomendacion_general": [
+      "En la parte de 'Directorios' de la página puedes encontrar contactos de psicólogos que brindan atención gratuita.",
+      "En el 'Mapa' puedes ver lugares, refugios e instituciones que ofrecen apoyo psicológico.",
+      "Si tienes dudas, consulta la página o llama al 800 911 25 11 para orientación inmediata."
+    ]
+  }
+}

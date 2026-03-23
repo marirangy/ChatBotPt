@@ -1,0 +1,52 @@
+version: "3.1"
+
+nlu:
+
+- intent: tipo_violencia_psicoemocional
+  examples: |
+    - ¿Qué es la violencia psicoemocional?
+    - ¿Cómo sé si sufro violencia psicoemocional?
+    - Me insulta y humilla todo el tiempo, ¿Eso es violencia?
+    - Me hace sentir que no valgo nada.
+    - Al principio me trata mal pero después se arrepiente. Dice que él no es así. 
+    - Siempre me amenaza emocionalmente. 
+
+- intent: tipo_violencia_fisica
+  examples: |
+    - ¿Qué es la violencia física?
+    - Me golpeó, pero se disculpó al instante. Ya ha pasado varías veces. 
+    - Me empuja o me lanza cosas
+    - Me lastima físicamente
+    - Tengo moretones por su culpa
+
+- intent: tipo_violencia_economica
+  examples: |
+    - ¿Cómo identifico la violencia económica?
+    - No me deja trabajar ni tener dinero.
+    - Me quita todo el dinero que gano.
+    - Me da dinero para lo básico, pero tengo que rogar que me dé para otras cosas.
+    - No me deja trabajar.
+
+- intent: tipo_violencia_sexual
+  examples: |
+    - ¿Qué se considera violencia sexual?
+    - Me obliga a tener relaciones, pero es mi pareja
+    - Me toca sin mi consentiemiento
+    - Me violó
+    - Difundió fotos que le confié a él
+
+- intent: tipo_violencia_derechos_reproductivos
+  examples: |
+    - ¿Qué es la violencia contra los derechos derechos_reproductivos?
+    - No me deja usar anticonceptivos. 
+    - Me obliga a embarazarme
+    - Me niega que reciba atención médica
+    - No puedo decidir sobre mi propio cuerpo
+
+- intent: tipo_violencia_feminicida
+  examples: |
+    - ¿Qué es la violencia feminicida?
+    - Tengo miedo por mi vida
+    - Me ha amenzado de muerte.
+    - Desaparecieron a mi hermana y no han denunciado 
+    - Conozco a alguien que puede estar en peligro 

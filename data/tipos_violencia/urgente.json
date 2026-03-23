@@ -1,0 +1,12 @@
+{
+  "nombre": "Alerta Urgente",
+  "respuestas_chatbot": {
+    "respuesta_directa": "Esto es una situación de urgencia.",
+    "validacion": "Si estás en peligro inmediato, tu seguridad es lo más importante.",
+    "recomendacion_general": [
+      "Llama al 911 de inmediato.",
+      "En la parte de 'Directorios' puedes encontrar líneas de ayuda especializadas.",
+      "En el 'Mapa' puedes ver refugios y centros de justicia cercanos."
+    ]
+  }
+}

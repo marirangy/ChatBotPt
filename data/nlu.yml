@@ -1,0 +1,253 @@
+version: "3.1"
+
+nlu:
+
+- intent: saludo
+  examples: |
+    - hola
+    - buenas
+    - buenas tardes
+    - buenas noches
+    - necesito ayuda
+    - quisiera orientación
+    - hola, ¿me puedes ayudar?
+    - estoy pasando por algo difícil
+    - quiero hablar con alguien
+    - ¿me podrías ayudar?
+    - quiero saber si estoy viviendo violencia
+    - no sé qué hacer
+
+- intent: tipo_violencia_fisica
+  examples: |
+    - mi pareja me pega
+    - me pegó
+    - me jaló del cabello
+    - me empujó contra la pared
+    - me golpea cuando se enoja
+    - me aventó cosas
+    - me lastimó físicamente
+    - me dio un golpe
+    - me agredió físicamente
+    - me golpeó con la mano
+
+- intent: tipo_violencia_sexual
+  examples: |
+    - me tocó sin permiso
+    - me obligó a tener relaciones aunque es mi novio
+    - me pidió fotos íntimas
+    - me acosó en el trabajo
+    - me besó sin consentimiento
+    - si somos pareja también puede ser abuso
+    - ¿puede ser abuso si es mi esposo?
+    - me forzó aunque seguimos juntos
+    - me obligó a tener sexo
+    - me acosaron en la calle
+
+- intent: tipo_violencia_patrimonial
+  examples: |
+    - me quitó mis cosas
+    - me destruyó mis pertenencias
+    - ocultó mis documentos personales
+    - dice que todo lo que hay en casa es suyo
+    - no me deja entrar a la casa aunque yo vivía ahí
+    - me quitaron mis bienes sin permiso
+    - están reteniendo mis documentos
+    - no me dejan usar mi dinero
+    - controlan mis propiedades sin consultarme
+    - vendieron mis cosas sin que yo aceptara
+
+- intent: tipo_violencia_psicoemocional
+  examples: |
+    - me insulta constantemente
+    - me hace sentir culpable
+    - me manipula emocionalmente
+    - me dice que no valgo nada
+    - me controla con amenazas
+    - me humilla frente a otros
+    - me chantajea emocionalmente
+    - me hace sentir miedo con sus palabras
+
+- intent: tipo_violencia_feminicida
+  examples: |
+    - me amenaza con matarme
+    - temo por mi vida
+    - me dijo que me iba a matar
+    - intento de feminicidio
+    - me persigue con intención de hacerme daño
+    - me quiere asesinar
+    - me amenaza de muerte
+
+- intent: frases_comunes_victima
+  examples: |
+    - dicen que fue mi culpa
+    - me dijeron que exagero
+    - me siento confundida por lo que pasó
+    - no sé si lo que vivo es violencia
+    - me da miedo hablar del tema
+    - creo que estoy exagerando
+    - tal vez es mi culpa
+    - no sé si debo denunciar
+
+- intent: base_legal_fisica
+  examples: |
+    - ¿cuál es la base legal para violencia física?
+    - qué leyes protegen contra la violencia física
+    - marco legal de la violencia física
+    - artículos que aplican en violencia física
+    - normativa para denunciar agresiones físicas
+    - qué dice la ley sobre violencia física
+    - penas por violencia física
+    - medidas de protección según la ley
+
+- intent: faq_psicoemocional
+  examples: |
+    - preguntas frecuentes sobre violencia emocional
+    - dudas comunes sobre maltrato psicológico
+    - ¿cómo identifico violencia psicológica?
+    - ¿qué señales hay de violencia emocional?
+    - ¿qué hago si me manipulan emocionalmente?
+
+- intent: reconocimiento_sexual
+  examples: |
+    - ¿cómo reconocer la violencia sexual?
+    - señales de abuso sexual
+    - indicadores de violencia sexual
+    - cómo saber si fue violencia sexual
+    - tipos de agresión sexual
+
+- intent: recursos_feminicida
+  examples: |
+    - recursos para casos de feminicidio
+    - apoyo cuando hay riesgo de feminicidio
+    - dónde buscar ayuda en feminicidio
+    - qué hacer ante intento de feminicidio
+    - contactos para denunciar feminicidio
+    - materiales para entender el feminicidio
+
+- intent: consecuencias_derechos_rep
+  examples: |
+    - consecuencias en derechos reproductivos
+    - cómo afecta a mis derechos reproductivos
+    - impacto en la salud sexual y reproductiva
+    - violencia y anticoncepción forzada
+    - restricción para decidir sobre mi cuerpo
+
+- intent: consecuencias_emocionales
+  examples: |
+    - consecuencias emocionales de la violencia
+    - me siento ansiosa y con miedo
+    - efectos psicológicos a largo plazo
+    - cambios en mi autoestima por la violencia
+    - me cuesta dormir desde lo ocurrido
+
+- intent: consecuencias_legales
+  examples: |
+    - ¿qué pasa si denuncio a mi agresor?
+    - ¿qué medidas de protección me pueden dar?
+    - ¿cómo es el proceso en el ministerio público?
+    - ¿puedo pedir una orden de restricción?
+    - ¿cuánto tarda el proceso legal?
+    - ¿qué hago si me amenazan después de denunciar?
+    - ¿necesito testigos para denunciar?
+
+- intent: senales_alerta_control
+  examples: |
+    - me revisa el celular todo el tiempo
+    - controla mis redes sociales
+    - me pide mis contraseñas
+    - me dice cómo vestirme
+    - me prohíbe hablar con mis amigas
+
+- intent: senales_alerta_miedo
+  examples: |
+    - tengo miedo de cómo reaccione
+    - me asusta cuando grita
+    - no sé cómo decirle algo sin que se enoje
+    - camino con cuidado para que no se moleste
+    - me paralizo cuando se enoja
+
+- intent: acompanamiento_proceso
+  examples: |
+    - ¿cómo es el proceso de acompañamiento?
+    - ¿qué pasos tengo que seguir?
+    - ¿cómo empiezo a recibir apoyo?
+    - ¿hay un registro o trámite que hacer?
+    - ¿puedo ir directamente o tengo que agendar?
+
+- intent: acompanamiento_psicologico
+  examples: |
+    - ¿hay apoyo psicológico?
+    - ¿cómo puedo acceder a ayuda psicológica?
+    - ¿quién me escucha si me siento mal?
+    - ¿ofrecen sesiones de terapia?
+    - ¿el apoyo emocional es gratuito?
+    - necesito acompañamiento psicológico
+    - quiero apoyo emocional
+    - necesito hablar con una psicóloga
+    - me siento mal y necesito ayuda psicológica
+    - ustedes me pueden orientar
+    - necesito asesoría psicológica
+
+- intent: acompanamiento_legal
+  examples: |
+    - qué tipo de apoyo legal puedo recibir
+    - ¿me pueden acompañar a hacer una denuncia?
+    - ¿quién me puede asesorar legalmente?
+    - ¿necesito llevar documentos para el apoyo legal?
+    - ¿cómo funciona el acompañamiento legal?
+    - me pueden acompañar a denunciar
+    - necesito orientación jurídica
+    - qué pasa después de denunciar
+    - cómo me pueden asesorar
+    - necesito asesoría legal
+
+- intent: prevencion_digital
+  examples: |
+    - ¿qué hago si me acosan en internet?
+    - cómo prevenir violencia en redes sociales
+    - protección contra violencia digital
+    - medidas para evitar ser acosada en línea
+    - ¿cómo puedo bloquear o denunciar en redes?
+
+- intent: prevencion_trabajo
+  examples: |
+    - ¿cómo prevenir la violencia en el trabajo?
+    - protocolos contra acoso en el lugar laboral
+    - derechos laborales frente al acoso
+    - ¿qué hago si hay violencia en mi trabajo?
+    - prevención del hostigamiento laboral
+
+- intent: alerta_ayuda_inmediata
+  examples: |
+    - necesito ayuda urgente
+    - estoy en peligro ahora mismo
+    - qué número puedo llamar si estoy en riesgo
+    - me siento insegura en este momento
+    - necesito apoyo inmediato
+
+- intent: instituciones_general
+  examples: |
+    - ¿a qué instituciones puedo acudir si sufro violencia?
+    - ¿qué lugares ofrecen ayuda a mujeres víctimas de violencia?
+    - ¿quién puede ayudarme legalmente?
+    - ¿dónde puedo recibir apoyo psicológico si vivo violencia?
+    - ¿qué instituciones brindan ayuda gratuita?
+    - ¿conoces organizaciones que acompañen a víctimas?
+
+- intent: instituciones_centros_justicia
+  examples: |
+    - dónde hay refugios en CDMX
+    - dónde están los centros de justicia para mujeres
+    - qué hago si necesito un refugio
+    - dónde están las fiscalías especializadas
+    - conoces organizaciones civiles que apoyen mujeres
+    - qué es INMUJERES
+    - la CNDH me puede ayudar
+
+- intent: alerta_urgente
+  examples: |
+    - estoy en peligro
+    - estoy en peligro que hago?
+    - qué hago si estoy en riesgo
+    - necesito ayuda urgente
+    - temo por mi vida

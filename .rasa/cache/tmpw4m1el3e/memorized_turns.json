@@ -1,0 +1,25 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwtytEJwCAMRdFVMkAncJVSQrApPLBRNPVH3L1C+3cP3H3MjUap2lmiI1ug8QWb3BroR0JztfU+Tet6YIseyFEyd+SkFiF86Q1DxClzHi9lICOr": "action_responder_tipo_violencia",
+    "eJyVjUEKgCAQRa/iATqBV4kYRCf4YDOi5ka8e0Jt2tXuP3i8v/axmJ4yN3K+QsWafg8Sd7A1D0SUyjLds3CeDmRitaYiKTVoZPFwtPMBgUdw41s3c0kqgTO9S7+etgu3800c": "action_listen",
+    "eJytj0EKwzAQA7/iB/QF/koJy+IoZcFZm/UmF+O/15Beeijk0JuEBgk9+3iEXg0ncXIpGkO/BCnviOFjsjSHTvZosMmITusxuNRCp5QMTcK0YReVJCuPe72GVouuMPpu+v/SrwecYc4zVnCjw17X/ljeuYVt2g==": "action_answer_urgent_alerts",
+    "eJytj0EKwzAMBL/iB+QF/koJQjhqETiykZT0YPL3mqSXHAo+9KZFq9nVox1TaFVpB0zORWJo1wCCK8XwFZnNSbp3M9LuYenSY3CuBXYumSQxwpNWFk684DHGVbJaZCGFO+n/Sb8+wEzq2NdCaLDp68ofg6LYu3c/rxxOlI1HzB+my5R3": "action_listen",
+    "eJwti8EJwCAMAFdxgE7gKqUE0UADNpEY/Yi7N9D+7uDuXPsIqylOSNlIOIb1AXB6MIZfKnVD9nZ0VG+IXS0GoyYwSSpypgQFFfMtHRSbShk+T+l7Xy8zCyjn": "action_responder_tipo_violencia",
+    "eJydjUEKwzAMBL/iB/QF/koowjgLFSSSkRxfTP5eQXLJrfS2C7OzyzxfaTbDoFI7q+Q0r0BSduR0l429Q4I9HBYMS9SeU+emNFg3SOVCKwz1o06GZroeMR7q528fBm8qoaCn9e/X9xeu+VeU": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCW/tjYWAAX6G/Y=": "utter_saludo",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCW/loAhpSUlqUXxULU4zYgFAOmENeo=": "action_listen",
+    "eJwti8EJwDAIAFdxgE6QVUoRER9CqiGx+YTsXqH93cHdufYBq3WZSBzqVmB9gEa3FPil6gixbJ8hPRu11CgQ2hynehVjJWxD2eV2zofq3tcL+Voldw==": "action_responder_tipo_violencia",
+    "eJyVjUEKgDAMBL/SB/iCfkUklJpDoCahib2U/t2CXrzpbQd2Z9c+ltC1YoOUnYRj6HcATgfG8EAhc+TZPQ3r7BBP9BicVKCRFORMCdQoCx6S5yaV8c1d0VR4xwpv2++37QJMAFC0": "action_listen",
+    "eJwtysEJwCAMQNFVMkAncJVSQgg5BDQRjV7E3Su0t//g32tfsGqTicShbgnWF2hUJMGPrD3Ezju6tPOoHUaC0Oo41bMYK6Gwmxdl2vt5AUHmI1A=": "action_responder_tipo_violencia",
+    "eJyVjUEKgDAMBL+SB/iCfkUkhJhDoCalrb2U/t2CXrzpbQeG2bWPBXrK0pC4qluAfg80OiTAA1FLFZvuWSRPR21iDVA1OTb1KMZKKOzmhzKNb9ksJbntkvEd+nO0XSK7TGY=": "action_listen",
+    "eJwtytEJwCAMRdFVMkAncBUpIUgKD2wUTf0Rd6/Q/t0DN8510KxNB0tyFAs0v2CTWwP9yOiutt+na9sPbNMDOWrhgZLVEoQvdCRZ63wB2VUiEQ==": "action_responder_tipo_violencia",
+    "eJyNjUEKgDAMBL+SB/iCfkUklBohUNOSxF5K/25BL9687cAwu/axQK9KDWNyLhKgPwMlnhTghczmJNO9jHQ6LBM9gHMt2LhkksQRDzZOcfxrKlktspPit/L7ZbsBVz1J6A==": "action_listen",
+    "eJytjksKwzAMRK/iA/QEvkoJwqhKESSSkZRsjO9eQbrpotBFdzPw5nMf81ZGNzqhYbBKLeMSIG2nWt5mYw+SZA8nS4YlbdQS3BVO1o0EucHKztjmb51G3lUeZPDZ8t+Vb89ZPDgOTIYcUCUyoEA72fO6MZcX/uJvXw==": "utter_instituciones",
+    "eJytjkEKwzAMBL/iB/QF/kopwqhKESSSseRcTP5eQXrJoSSU3rSwmp372G5p1EYrFHRWyWnsB0hZKKdPmNmcJLrdqEWHJaLn5FwVVtaZBLnAxMZYtmvMRlZVntTgSPnvyjdzFnP2jtEhA1TxeFCghdpr1zjhd/dQP2B+Wnm8AU+/l44=": "action_listen",
+    "eJwtysEJwCAMRuFVMkAncJVSQpAcfrCJaOpF3L1Ce3sfvHOug2ZtOlhywC3R/IJNbk30o6CH2n6frm0/sM1IFKjOA17UMoSrRMPtBilrXS+KxiRC": "action_responder_tipo_violencia",
+    "eJyVjUEKgDAMBL/SB/iCfkUkhJpDoCYljb2U/t2CXrzpbQeG2bWPJfRi1ACTs0oM/R4geFAMD2SuTjLds5JNh2Wix+BcFBprJkmMUNCNDxXGPL6FjWpR2cngnfp3tV1r3E5K": "action_listen",
+    "eJwtysEJwCAMQNFVMkAncJVSQpAcAmkUjVII7l6hvf0H/4x1QNTGEym7FEsQX6DRzQl+qHRn2+/o3PYjtukJXGrBKUXZshB2fgbpWtcL2jciNA==": "action_responder_tipo_violencia",
+    "eJyNjUEKwCAMBL/iA/oCv1JKEJtDwEZJohTEv1doL71524Fhdu9jc70INgjRKLN3/R3A4ULvPkikhjzdqijTIZ5o3hmVDI1yQo4UQPGuIY21pqCWzCcK/CvLL8cDZvNKLg==": "action_listen"
+  }
+}

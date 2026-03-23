@@ -1,0 +1,112 @@
+{
+  "nombre": "Violencia Física",
+  "categoria": "Tipo",
+  "descripcion": "Toda acción u omisión intencional que causa daño a la integridad física de una persona.",
+  "ejemplos": [
+    "Golpes con la mano o con objetos",
+    "Empujones",
+    "Jaloneos",
+    "Quemaduras",
+    "Patadas",
+    "Estrangulamientos",
+    "Agresiones con cuchillos, cables o cinturones"
+  ],
+  "consecuencias": [
+    "Lesiones físicas visibles o internas",
+    "Dolor crónico",
+    "Cicatrices permanentes",
+    "Discapacidad",
+    "Pérdida de la vida"
+  ],
+  "senales_alerta": [
+    "Moretones frecuentes y sin explicación clara.",
+    "Excusas constantes para justificar heridas.",
+    "Miedo evidente hacia una persona cercana.",
+    "Uso de ropa que cubre todo el cuerpo, incluso en climas calurosos.",
+    "Aislamiento repentino de familia o amistades."
+  ],
+  "frases_comunes_victima": [
+    "Fue mi culpa, lo provoqué.",
+    "Se le pasó la mano, pero no es malo.",
+    "No fue tan grave, solo me empujó.",
+    "No quiero que se meta en problemas.",
+    "Yo estoy bien, solo fue un accidente."
+  ],
+  "base_legal": {
+    "Ley de Acceso": "Reconocida como una forma grave de violencia contra las mujeres.",
+    "Código Penal (Art. 130, 200)": "Lesiones o violencia familiar: de 6 meses a 8 años de prisión, dependiendo de la gravedad.",
+    "Código de Procedimientos Penales (Art. 109)": "Permite medidas inmediatas para proteger a la víctima, como alejamiento o custodia."
+  },
+  "prevencion": [
+    "Promover las clases de autodefensa.",
+    "Educar desde la infancia en igualdad y empatía",
+    "Identificar patrones de control y agresión en etapas tempranas"
+  ],
+  "que_hacer": [
+    "Buscar un lugar seguro inmediatamente",
+    "Llamar al 911 o a una línea de ayuda especializada",
+    "Acudir al Ministerio Público o una unidad de atención a víctimas",
+    "Guardar evidencia (fotos, mensajes, testigos)",
+    "Solicitar medidas de protección"
+  ],
+  "instituciones_apoyo": [
+    "Línea Mujeres CDMX: 5658 1111",
+    "Centro de Justicia para Mujeres",
+    "INMUJERES",
+    "Línea Nacional Contra la Violencia: 800 911 25 11",
+    "Red Nacional de Refugios"
+  ],
+  "reconocimiento": "Suele manifestarse con señales físicas visibles (heridas, moretones) o cambios emocionales (miedo, ansiedad, retraimiento) frente a la persona agresora.",
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿La violencia física solo ocurre en la pareja?",
+      "respuesta": "No. También puede darse en el entorno familiar, escolar, laboral o comunitario."
+    },
+    {
+      "pregunta": "¿Debo denunciar aunque no haya testigos?",
+      "respuesta": "Sí. Tu testimonio es válido y las autoridades están obligadas a investigar."
+    },
+    {
+      "pregunta": "¿Qué pasa si tengo miedo de denunciar?",
+      "respuesta": "Es normal sentir miedo, pero existen instituciones que pueden apoyarte y protegerte. Si tienes a alguien de confianza, pídele que te acompañe. No estás sola."
+    }
+  ],
+  "alerta": "Este tipo de violencia puede escalar rápidamente. Si estás en peligro, busca ayuda de inmediato.",
+  "recursos": [
+    {
+      "tipo": "video",
+      "titulo": "¿Qué es la violencia física?",
+      "url": "https://youtu.be/jB0EVrXRgkg?si=-nJ-NaRBvROvb1GH"
+    },
+    {
+      "tipo": "pdf",
+      "titulo": "Guía para víctimas de violencia",
+      "url": "https://semujeres.cdmx.gob.mx/storage/app/media/GUIA_765.pdf"
+    }
+  ],
+  "detector_automatizado": {
+    "palabras_clave": [
+      "me pegó", "me pego", "me pega",
+      "me golpeó", "me golpeo", "me golpea",
+      "me dio una cachetada", "me dio una bofetada", "me cacheteó",
+      "me jaloneó", "me jaloneo", "me jalonea",
+      "me empujó", "me empujo", "me empuja",
+      "me aventó", "me avento", "me avienta",
+      "me lanzó cosas", "me lanza cosas", "me tiró cosas", "me tiro cosas",
+      "me lastimó", "me lastimo", "me lastima",
+      "tengo moretones", "tengo un moretón", "me dejó moretones"
+    ],
+    "emociones_asociadas": ["miedo", "dolor", "culpa", "confusión", "temor"],
+    "sugerir_ayuda_si": true
+  },
+  "etiquetas": ["física", "violencia", "pareja", "lesiones", "agresión"],
+  "respuestas_chatbot": {
+    "respuesta_directa": "Eso es Violencia Física.",
+    "validacion": "Nadie tiene derecho a golpearte o lastimarte.",
+    "recomendacion_general": [
+      "En la sección del 'Mapa' puedes ver lugares, refugios e instituciones de ayuda a la mujer.",
+      "En la parte de 'Directorios' de la página puedes encontrar contactos de apoyo psicológico y legal.",
+      "Llama al 911 o al 800 911 25 11 para recibir ayuda inmediata."
+    ]
+  }
+}

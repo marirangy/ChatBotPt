@@ -1,0 +1,51 @@
+version: "3.1"
+
+nlu:
+
+- intent: alerta_ayuda_inmediata
+  examples: |
+    - necesito ayuda urgente
+    - estoy en peligro, ¿qué hago?
+    - por favor, es una emergencia
+    - no sé a quién llamar, tengo miedo
+    - ayúdenme, es una situación grave
+    - alguien me está amenazando, ¿qué hago?
+    - no puedo salir de donde estoy, necesito ayuda ya
+
+- intent: alerta_lineas_urgencia
+  examples: |
+    - ¿cuál es la línea para emergencias?
+    - dame un número para denunciar ya
+    - ¿puedo llamar al 911?
+    - ¿hay un teléfono de ayuda inmediata?
+    - ¿a quién llamo si estoy en peligro?
+    - ¿cuál es el número para violencia contra mujeres?
+    - necesito el teléfono de emergencia para mujeres
+
+- intent: alerta_ubicacion_segura
+  examples: |
+    - ¿dónde puedo ir si estoy en peligro?
+    - necesito un lugar seguro ahora
+    - ¿hay refugios para mujeres en riesgo?
+    - ¿dónde me pueden recibir urgente?
+    - ¿puedo ir a una casa de resguardo?
+    - ¿hay albergues si estoy huyendo de la violencia?
+    - ¿me pueden proteger en algún lado?
+
+- intent: alerta_acompanamiento_emergente
+  examples: |
+    - ¿puede venir alguien a ayudarme ahora?
+    - necesito que alguien me acompañe urgentemente
+    - ¿hay apoyo en el momento?
+    - ¿pueden mandarme a alguien?
+    - estoy sola y en riesgo, ¿pueden venir?
+    - ¿hay acompañamiento de emergencia?
+
+- intent: alerta_violencia_en_progreso
+  examples: |
+    - en este momento me están agrediendo
+    - está ocurriendo violencia en mi casa
+    - están golpeando a alguien ahora mismo
+    - escucho gritos y golpes en este momento
+    - necesito denunciar algo que pasa ahora
+    - está ocurriendo algo grave, actúen ya

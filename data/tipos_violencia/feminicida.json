@@ -1,0 +1,134 @@
+{
+  "nombre": "Violencia Feminicida",
+  "categoria": "Tipo",
+  "descripcion": "Es la violencia extrema y mortal dirigida contra las mujeres por razones de género, que se manifiesta en asesinatos, desapariciones y otras formas de violencia letal derivadas de la discriminación y desigualdad estructural.",
+  "ejemplos": [
+    "Asesinato de una mujer por razones de género",
+    "Desaparición forzada de mujeres",
+    "Falta de atención o protección adecuada ante amenazas graves",
+    "Violencia extrema en relaciones de pareja que termina en muerte",
+    "Negligencia institucional que facilita la impunidad"
+  ],
+  "consecuencias": [
+    "Pérdida de vidas humanas",
+    "Impacto psicológico y social en familias y comunidades",
+    "Clima de miedo y terror en mujeres y niñas",
+    "Reproducción de desigualdades y discriminación de género",
+    "Impunidad y falta de justicia"
+  ],
+  "senales_alerta": [
+    "Amenazas de muerte reiteradas",
+    "Violencia grave y constante en el hogar o comunidad",
+    "Desapariciones inexplicadas de mujeres cercanas",
+    "Falta de respuesta o protección por parte de autoridades",
+    "Contextos de machismo y violencia sistemática"
+  ],
+  "frases_comunes_victima": [
+    "Me ha amenazado de muerte varias veces",
+    "Tengo miedo de salir sola o estar en casa",
+    "No me creen cuando digo que me quiere hacer daño",
+    "La policía no me ayudó cuando pedí ayuda",
+    "Conozco mujeres que desaparecieron y nadie las encontró"
+  ],
+  "base_legal": {
+    "Ley General de Acceso": "Reconoce el feminicidio como delito grave y establece protocolos para su prevención, investigación y sanción.",
+    "Código Penal Federal": "Tipifica el feminicidio y establece penas severas para quienes lo cometen.",
+    "Convención de Belém do Pará": "Instrumento internacional para prevenir, sancionar y erradicar la violencia contra las mujeres."
+  },
+  "prevencion": [
+    "Fomentar la igualdad de género desde la educación.",
+    "Fortalecer los mecanismos de protección y atención a mujeres en riesgo.",
+    "Capacitar a autoridades para identificar y actuar ante señales de riesgo.",
+    "Promover campañas contra la violencia y el machismo."
+  ],
+  "que_hacer": [
+    "Denunciar cualquier amenaza o agresión ante autoridades competentes.",
+    "Solicitar medidas de protección inmediata (órdenes de restricción).",
+    "Buscar apoyo psicológico y legal en organizaciones especializadas.",
+    "Reportar desapariciones lo más pronto posible.",
+    "Exigir justicia y seguimiento adecuado a los casos."
+  ],
+  "instituciones_apoyo": [
+    "Línea Nacional contra la Violencia: 911 / 800 911 25 11",
+    "Fiscalías Especializadas en Feminicidio",
+    "Centro de Justicia para Mujeres",
+    "INMUJERES: http://cedoc.inmujeres.gob.mx/",
+    "Comisión Nacional de los Derechos Humanos (CNDH): https://www.cndh.org.mx/contacto",
+    "Organizaciones civiles de defensa de derechos humanos y mujeres"
+  ],
+  "reconocimiento": "El feminicidio es la manifestación más extrema de violencia de género y refleja las desigualdades estructurales y culturales que afectan a las mujeres.",
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Qué diferencia hay entre homicidio y feminicidio?",
+      "respuesta": "El feminicidio ocurre por razones de género, con violencia extrema y con antecedentes de discriminación o abuso hacia la víctima."
+    },
+    {
+      "pregunta": "¿A quién puedo acudir si temo por mi vida?",
+      "respuesta": "Puedes acudir a la Fiscalía Especializada, a un Centro de Justicia para Mujeres o llamar a la Línea Nacional para recibir protección inmediata."
+    },
+    {
+      "pregunta": "¿Cómo denunciar una desaparición de mujer?",
+      "respuesta": "Acude a la Fiscalía, Policía o a organizaciones especializadas para denunciar y activar protocolos de búsqueda."
+    },
+    {
+      "pregunta": "¿Qué hago si conozco a alguien que está en riesgo?",
+      "respuesta": "Si presencias un episodio de violencia en el que la vida de una mujer pueda estar en riesgo, comunícate de inmediato a la fiscalía o al 911."
+    }
+  ],
+  "alerta": "La violencia feminicida pone en riesgo la vida de las mujeres. No ignores las amenazas ni los actos violentos. Busca apoyo y denuncia.",
+  "recursos": [
+    {
+      "tipo": "video",
+      "titulo": "Prevención y atención ante riesgo feminicida",
+      "url": ""
+    },
+    {
+      "tipo": "pdf",
+      "titulo": "Guía rápida de medidas de protección",
+      "url": ""
+    }
+  ],
+  "detector_automatizado": {
+    "palabras_clave": [
+      "me amenazó de muerte",
+      "me amenazo de muerte",
+      "dice que me va a matar",
+      "me va a matar",
+      "tengo miedo por mi vida",
+      "desapareció y nadie sabe",
+      "desaparecieron a una amiga",
+      "la policía no me ayudó",
+      "la policia no me ayudo",
+      "violencia grave en casa",
+      "me persigue",
+      "me acecha",
+      "me espera afuera de mi casa"
+    ],
+    "emociones_asociadas": [
+      "miedo",
+      "desesperación",
+      "angustia",
+      "tristeza",
+      "rabia"
+    ],
+    "sugerir_ayuda_si": true
+  },
+  "etiquetas": [
+    "feminicidio",
+    "asesinato",
+    "desaparición",
+    "violencia extrema",
+    "género"
+  ],
+  "respuestas_chatbot": {
+    "respuesta_directa": "Eso es Violencia Feminicida.",
+    "deteccion": "Podrías estar en riesgo de violencia feminicida o conocer a alguien que lo esté. ¿Quieres saber cómo protegerte y dónde pedir ayuda?",
+    "validacion": "Tu vida y seguridad son prioridad. No estás sola; hay instituciones que pueden protegerte y brindarte apoyo.",
+    "recomendacion_general": [
+      "Si hay peligro inmediato, llama al 911.",
+      "Acércate a la Fiscalía Especializada o a un Centro de Justicia para Mujeres.",
+      "Para orientación inmediata, llama al 800 911 25 11."
+    ]
+  }
+}
+

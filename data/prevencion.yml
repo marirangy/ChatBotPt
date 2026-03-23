@@ -1,0 +1,139 @@
+version: "3.1"
+
+nlu:
+
+- intent: prevencion_general
+  examples: |
+    - ¿cómo prevenir la violencia contra las mujeres?
+    - ¿qué puedo hacer para evitar la violencia de género?
+    - estrategias para prevenir la violencia
+    - ¿cómo puedo cuidarme ante situaciones de violencia?
+    - ¿qué medidas ayudan a prevenir el maltrato?
+
+- intent: prevencion_comunidad
+  examples: |
+    - ¿cómo puede ayudar la comunidad a prevenir la violencia?
+    - acciones comunitarias para prevenir violencia de género
+    - ¿los vecinos pueden hacer algo para prevenir violencia?
+    - redes de apoyo comunitarias contra la violencia
+    - ¿cómo denunciar de forma segura en la comunidad?
+
+- intent: prevencion_instituciones
+  examples: |
+    - ¿qué hacen las instituciones para prevenir la violencia?
+    - programas institucionales de prevención
+    - ¿hay campañas de prevención oficiales?
+    - acciones gubernamentales contra la violencia de género
+    - ¿cómo actúa el gobierno para prevenir la violencia?
+
+- intent: prevencion_educacion
+  examples: |
+    - ¿cómo ayuda la educación a prevenir la violencia?
+    - talleres escolares de prevención
+    - ¿hay materiales educativos sobre violencia?
+    - ¿puedo recibir información para prevenir el abuso?
+    - ¿enseñan sobre violencia en las escuelas?
+
+- intent: prevencion_autoproteccion
+  examples: |
+    - ¿cómo puedo protegerme ante situaciones violentas?
+    - señales de alerta que debo conocer
+    - estrategias personales para prevenir agresiones
+    - ¿cómo reconocer relaciones peligrosas?
+    - ¿puedo entrenarme para evitar ser víctima?
+
+- intent: prevencion_digital
+  examples: |
+    - ¿cómo prevenir la violencia en redes sociales?
+    - ¿qué hago si me acosan en internet?
+    - protección contra violencia digital
+    - medidas para evitar ser acosada en línea
+    - ¿cómo puedo bloquear o denunciar en redes?
+
+- intent: prevencion_hombres
+  examples: |
+    - ¿cómo involucrar a los hombres en la prevención?
+    - talleres para hombres sobre violencia de género
+    - ¿qué deben saber los hombres para no ser violentos?
+    - educación para hombres en temas de igualdad
+    - ¿hay programas para prevenir violencia desde los hombres?
+
+- intent: prevencion_medios
+  examples: |
+    - ¿cómo influyen los medios en la prevención?
+    - papel de los medios en la prevención de la violencia
+    - campañas mediáticas contra la violencia de género
+    - uso responsable de la información para prevenir violencia
+    - ¿los medios promueven o previenen la violencia?
+
+- intent: prevencion_familia
+  examples: |
+    - ¿cómo prevenir la violencia desde la familia?
+    - educación familiar para evitar violencia
+    - ¿qué enseñarles a niñas y niños sobre violencia?
+    - relaciones familiares sin violencia
+    - ¿cómo criar en igualdad y respeto?
+
+- intent: prevencion_lugares_seguridad
+  examples: |
+    - ¿hay espacios seguros para mujeres?
+    - ¿cómo encontrar un lugar seguro si estoy en peligro?
+    - ¿qué lugares ofrecen protección inmediata?
+    - espacios de resguardo contra violencia
+    - ¿dónde puedo refugiarme en caso de violencia?
+
+- intent: prevencion_trabajo
+  examples: |
+    - ¿cómo prevenir la violencia en el trabajo?
+    - protocolos contra acoso en el lugar laboral
+    - derechos laborales frente al acoso
+    - ¿qué hacer si hay violencia en mi trabajo?
+    - prevención del hostigamiento laboral
+
+- intent: prevencion_pareja
+  examples: |
+    - ¿cómo saber si mi relación es sana?
+    - ¿cuándo una relación se vuelve violenta?
+    - señales de una pareja violenta
+    - cómo fomentar relaciones saludables
+    - prevención de violencia en el noviazgo
+
+- intent: prevencion_embarazo
+  examples: |
+    - ¿cómo prevenir violencia durante el embarazo?
+    - violencia obstétrica y cómo evitarla
+    - derechos durante el parto
+    - protocolos de parto humanizado
+    - prevención de abusos médicos durante el embarazo
+
+- intent: prevencion_jovenes
+  examples: |
+    - talleres para prevenir violencia en jóvenes
+    - ¿cómo hablar con adolescentes sobre violencia?
+    - educación sexual y emocional para prevenir abusos
+    - redes de apoyo para jóvenes en riesgo
+    - señales de violencia en el noviazgo adolescente
+
+- intent: prevencion_adultos_mayores
+  examples: |
+    - ¿cómo prevenir violencia hacia personas mayores?
+    - violencia patrimonial a adultos mayores
+    - ¿quién protege a los adultos mayores?
+    - señales de abuso a ancianos
+    - derechos de personas mayores frente a violencia
+
+- intent: prevencion_interseccional
+  examples: |
+    - ¿cómo prevenir violencia hacia mujeres indígenas?
+    - violencia hacia mujeres con discapacidad
+    - prevención en contextos de pobreza
+    - protección a mujeres migrantes
+    - discriminación estructural y violencia de género
+
+- intent: prevencion_autocuidado
+  examples: |
+    - ¿qué prácticas de autocuidado puedo seguir?
+    - autocuidado emocional para mujeres
+    - cómo cuidar mi salud mental
+    - rutinas que me ayuden a sentirme segura
+    - ¿qué hago si empiezo a sentir ansiedad por violencia?

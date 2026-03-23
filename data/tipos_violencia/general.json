@@ -1,0 +1,12 @@
+{
+  "nombre": "Acompañamiento General",
+  "respuestas_chatbot": {
+    "respuesta_directa": "Esto es Acompañamiento General.",
+    "validacion": "Sí, contamos con acompañamiento integral para mujeres que sufren violencia.",
+    "recomendacion_general": [
+      "En la parte de 'Directorios' de la página puedes encontrar contactos de apoyo psicológico y legal gratuitos.",
+      "En el 'Mapa' puedes ver refugios e instituciones de ayuda a la mujer.",
+      "Si tienes dudas, puedes consultar la página para más información o llamar al 800 911 25 11."
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "nombre": "Violencia Psicoemocional",
+  "categoria": "Tipo",
+  "descripcion": "Toda acción u omisión dirigida a controlar, intimidar o desvalorizar emocionalmente a una persona, afectando su autoestima y bienestar psicológico.",
+  "ejemplos": [
+    "Insultos y humillaciones",
+    "Amenazas y chantaje",
+    "Celos excesivos",
+    "Control sobre decisiones o amistades",
+    "Indiferencia o desdén",
+    "Intimidación constante",
+    "Aislamiento emocional",
+    "Comparaciones destructivas"
+  ],
+  "consecuencias": [
+    "Baja autoestima",
+    "Depresión o ansiedad",
+    "Aislamiento social",
+    "Trastornos del sueño o alimentación",
+    "Dependencia emocional",
+    "Pérdida del sentido de identidad"
+  ],
+  "senales_alerta": [
+    "La persona duda constantemente de sí misma.",
+    "Llora con frecuencia o está irritable.",
+    "Tiene miedo de hablar o expresar lo que piensa.",
+    "Justifica el maltrato emocional.",
+    "Se aísla de amigos o familiares.",
+    "Evita conflictos a toda costa."
+  ],
+  "frases_comunes_victima": [
+    "No soy suficiente para él/ella.",
+    "Todo lo hago mal.",
+    "Es que si no obedezco, se enoja.",
+    "No me grita porque me odie, lo hace por mi bien.",
+    "Yo tengo la culpa de que me trate así."
+  ],
+  "base_legal": {
+    "Ley de Acceso": "Reconocida como violencia que afecta la estabilidad emocional y la dignidad.",
+    "Código Penal (Art. 201)": "Incluida dentro de la violencia familiar. Se castiga con hasta 6 años de prisión.",
+    "Código de Procedimientos Penales (Art. 137)": "Permite imponer medidas de protección si hay daño psicológico a la víctima."
+  },
+  "prevencion": [
+    "Fomentar la autoestima y autonomía emocional.",
+    "Promover relaciones basadas en el respeto mutuo.",
+    "Establecer límites sanos en las relaciones.",
+    "Desarrollar habilidades de comunicación asertiva.",
+    "Educar en igualdad y no control.",
+    "Identificar patrones de control."
+  ],
+  "que_hacer": [
+    "Hablar con alguien de confianza.",
+    "Buscar ayuda psicológica o emocional.",
+    "Llamar a líneas de ayuda especializadas.",
+    "Acudir al Ministerio Público si hay violencia reiterada.",
+    "Solicitar medidas de protección."
+  ],
+  "instituciones_apoyo": [
+    "Línea Mujeres CDMX: 5658 1111",
+    "Centro de Apoyo Psicológico de INMUJERES",
+    "Línea Nacional Contra la Violencia: 800 911 25 11",
+    "Instituto Nacional de Psiquiatría: 55 4160 5454",
+    "Red Nacional de Refugios"
+  ],
+  "reconocimiento": "Aunque no deja marcas visibles, la violencia psicoemocional puede ser devastadora. Suele manifestarse en el deterioro del estado anímico, miedo, ansiedad, baja autoestima o culpa constante.",
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿La violencia emocional es tan grave como la física?",
+      "respuesta": "Sí. Aunque no deje marcas visibles, puede causar daño psicológico profundo y duradero."
+    },
+    {
+      "pregunta": "¿Qué pasa si nadie me cree?",
+      "respuesta": "Tu experiencia es válida. Existen profesionales que pueden apoyarte y acompañarte."
+    },
+    {
+      "pregunta": "¿Cómo sé si estoy en una relación emocionalmente violenta?",
+      "respuesta": "Si te hacen sentir mal contigo misma, te manipulan, controlan o humillan, es posible que estés viviendo violencia psicoemocional."
+    }
+  ],
+  "alerta": "Este tipo de violencia puede pasar desapercibida. Si te sientes constantemente menospreciada o con miedo, no estás exagerando. Busca ayuda.",
+  "recursos": [
+    {
+      "tipo": "video",
+      "titulo": "Violencia emocional",
+      "url": ""
+    },
+    {
+      "tipo": "pdf",
+      "titulo": "Guía sobre violencia psicoemocional",
+      "url": ""
+    }
+  ],
+  "detector_automatizado": {
+    "palabras_clave": [
+      "me insulta",
+      "me hace sentir inútil",
+      "me hace sentir inutil",
+      "me controla",
+      "me humilla",
+      "me grita todo el tiempo",
+      "no me deja hablar con nadie",
+      "me manipula",
+      "me hace llorar",
+      "me dice que no sirvo",
+      "me hace sentir tonta"
+    ],
+    "emociones_asociadas": [
+      "culpa",
+      "tristeza",
+      "ansiedad",
+      "confusión",
+      "miedo"
+    ],
+    "sugerir_ayuda_si": true
+  },
+  "etiquetas": [
+    "psicoemocional",
+    "emocional",
+    "control",
+    "insultos",
+    "chantaje"
+  ],
+  "respuestas_chatbot": {
+    "respuesta_directa": "Eso es Violencia Psicoemocional.",
+    "validacion": "Tus emociones son válidas, no estás exagerando.",
+    "recomendacion_general": [
+      "En la parte de 'Directorios' de la página puedes encontrar contactos de ayuda psicológica.",
+      "En la sección del 'Mapa' puedes ver lugares, refugios e instituciones de ayuda a la mujer.",
+      "También puedes llamar al 800 911 25 11 para recibir acompañamiento inmediato."
+    ] 
+  }
+}

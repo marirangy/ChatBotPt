@@ -1,0 +1,134 @@
+{
+  "nombre": "Violencia Sexual",
+  "categoria": "Tipo",
+  "descripcion": "Toda acción u omisión que amenaza, pone en riesgo o lesiona la libertad, integridad y seguridad sexual de una persona, sin su consentimiento.",
+  "ejemplos": [
+    "Acoso u hostigamiento sexual",
+    "Toques o caricias no consentidas",
+    "Miradas o comentarios lascivos",
+    "Violación o intento de violación",
+    "Forzar a mantener relaciones sexuales sin consentimiento",
+    "Difundir o grabar contenido sexual sin autorización",
+    "Obligar a ver pornografía o material sexual"
+  ],
+  "consecuencias": [
+    "Trastornos de ansiedad o depresión",
+    "Sentimientos de culpa o vergüenza",
+    "Daño a la autoestima y al vínculo con el cuerpo",
+    "Infecciones de transmisión sexual",
+    "Embarazos no deseados",
+    "Miedo constante o retraimiento social"
+  ],
+  "senales_alerta": [
+    "Alguien te toca o mira de forma incómoda sin tu consentimiento.",
+    "Recibes insinuaciones o mensajes sexuales sin haberlos pedido.",
+    "Te obligan a mantener relaciones que no deseas.",
+    "Te chantajean con imágenes o videos íntimos.",
+    "Te minimizan cuando te quejas por tocamientos o acoso."
+  ],
+  "frases_comunes_victima": [
+    "Me tocan sin mi permiso pero dicen que exagero.",
+    "Tuve relaciones pero no quería, me presionó.",
+    "Me graban o piden fotos íntimas aunque yo no quiero.",
+    "Dice que si no tengo sexo con él, me va a dejar.",
+    "No me creen porque 'somos pareja'."
+  ],
+  "base_legal": {
+    "Ley de Acceso": "Reconoce cualquier conducta sexual sin consentimiento como violencia sexual, incluyendo el acoso, violación o explotación.",
+    "Código Penal (Arts. 174–178 BIS)": "Sanciona el abuso, acoso y violación sexual. Hay agravantes si la víctima es menor, embarazada o dependiente.",
+    "Código de Procedimientos Penales (Arts. 109, 110)": "Protege la identidad de la víctima, permite audiencias privadas y evita la revictimización."
+  },
+  "prevencion": [
+    "Educar sobre consentimiento desde edades tempranas.",
+    "Fomentar el respeto a la autonomía corporal.",
+    "Desnormalizar la violencia sexual en medios y cultura.",
+    "Apoyar campañas de denuncia y redes de acompañamiento."
+  ],
+  "que_hacer": [
+    "Buscar un lugar seguro.",
+    "Llamar al 911 o a una línea especializada.",
+    "Acudir a un Centro de Justicia o Ministerio Público.",
+    "Solicitar atención médica y legal inmediata.",
+    "Evitar lavar o cambiar ropa si fue un abuso reciente (para preservar evidencia).",
+    "Evitar asearse si fue un abuso reciente (para preservar evidencia)."
+  ],
+  "instituciones_apoyo": [
+    "Centro de Justicia para Mujeres",
+    "Línea Nacional Contra la Violencia: 800 911 25 11",
+    "Línea Mujeres CDMX: 5658 1111",
+    "CAVI (CDMX): 555345 5200 ext. 1350",
+    "Instituto Nacional de las Mujeres (INMUJERES)"
+  ],
+  "reconocimiento": "La violencia sexual no siempre deja marcas visibles. A menudo viene acompañada de miedo, vergüenza, confusión y silencio. El consentimiento debe ser libre, informado, claro y revocable.",
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Si estoy en una relación, puede haber violencia sexual?",
+      "respuesta": "Sí. Estar en una relación no anula tu derecho a decidir sobre tu cuerpo. Si no hay consentimiento, es violencia sexual."
+    },
+    {
+      "pregunta": "¿Qué hago si me grabaron o difundieron sin permiso?",
+      "respuesta": "Puedes denunciar bajo la Ley Olimpia. Grabar, difundir o amenazar con imágenes íntimas sin consentimiento es delito."
+    },
+    {
+      "pregunta": "¿Debo denunciar aunque tenga miedo?",
+      "respuesta": "Es válido tener miedo, pero hay instituciones que te protegerán. No estás sola. Puedes recibir acompañamiento legal y emocional."
+    }
+  ],
+  "alerta": "La violencia sexual puede tener consecuencias graves para la salud física y emocional. No está justificada bajo ninguna circunstancia. Si la estás viviendo, hay ayuda disponible.",
+  "recursos": [
+    {
+      "tipo": "video",
+      "titulo": "Información sobre violencia sexual",
+      "url": ""
+    },
+    {
+      "tipo": "pdf",
+      "titulo": "Guía de actuación ante violencia sexual",
+      "url": ""
+    }
+  ],
+  "detector_automatizado": {
+    "palabras_clave": [
+      "me tocó sin permiso",
+      "me toco sin permiso",
+      "me violó",
+      "me violo",
+      "me obligó a tener relaciones",
+      "me obligo a tener relaciones",
+      "me acosa",
+      "me acoso",
+      "me pide fotos íntimas",
+      "me pide fotos intimas",
+      "difundió mis videos",
+      "difundio mis videos",
+      "me forzó",
+      "me forzo",
+      "me obligaron a tener sexo",
+      "abusaron de mi"
+    ],
+    "emociones_asociadas": [
+      "miedo",
+      "culpa",
+      "vergüenza",
+      "confusión",
+      "tristeza"
+    ],
+    "sugerir_ayuda_si": true
+  },
+  "etiquetas": [
+    "sexual",
+    "acoso",
+    "violación",
+    "consentimiento",
+    "ley olimpia"
+  ],
+  "respuestas_chatbot": {
+    "respuesta_directa": "Eso es Violencia Sexual.",
+    "validacion": "Nadie tiene derecho a tocarte sin tu consentimiento.",
+    "recomendacion_general": [
+      "En la parte de 'Directorios' de la página puedes encontrar contactos de ayuda psicológica y legal.",
+      "En el 'Mapa' puedes ver refugios e instituciones de apoyo especializado.",
+      "Llama al 800 911 25 11 o acude a un Centro de Justicia para Mujeres."
+    ]
+  }
+}
