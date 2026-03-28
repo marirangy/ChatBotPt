@@ -22,6 +22,7 @@ nlu:
     - mi pareja me pega
     - me pegó
     - me jaló del cabello
+    - me jala del cabello
     - me empujó contra la pared
     - me golpea cuando se enoja
     - me aventó cosas
@@ -29,6 +30,20 @@ nlu:
     - me dio un golpe
     - me agredió físicamente
     - me golpeó con la mano
+    - me pega
+    - me golpea
+    - me empuja
+    - me lanza cosas
+    - me patea
+    - me jalonea
+    - me da cachetadas
+    - me jalona
+    - me da golpes
+    - ¿qué formas de abuso hay?
+    - qué formas de abuso existen
+    - cuáles son los tipos de abuso
+    - me agredió
+    - me lastimó
 
 - intent: tipo_violencia_sexual
   examples: |
@@ -42,6 +57,15 @@ nlu:
     - me forzó aunque seguimos juntos
     - me obligó a tener sexo
     - me acosaron en la calle
+    - me obliga a tener sexo
+    - me acosa por mensajes
+    - me manda mensajes obscenos
+    - me acosa por whatsapp
+    - me acosa en redes sociales
+    - me obliga a hacer cosas que no quiero
+    - me toca sin que yo quiera
+    - abuso sexual en pareja
+    - me forzó sexualmente
 
 - intent: tipo_violencia_patrimonial
   examples: |
@@ -55,6 +79,15 @@ nlu:
     - no me dejan usar mi dinero
     - controlan mis propiedades sin consultarme
     - vendieron mis cosas sin que yo aceptara
+    - me quita mis cosas
+    - me quita el dinero
+    - no me deja usar mi dinero
+    - me quita mi dinero
+    - me quita mis pertenencias
+    - esconde mis documentos
+    - no me deja acceder a mi cuenta
+    - controla mi dinero
+    - no me da dinero para vivir
 
 - intent: tipo_violencia_psicoemocional
   examples: |
@@ -66,16 +99,33 @@ nlu:
     - me humilla frente a otros
     - me chantajea emocionalmente
     - me hace sentir miedo con sus palabras
+    - me grita todo el tiempo
+    - me grita
+    - me hace sentir culpable
+    - me manipula
+    - me hace sentir que todo es mi culpa
+    - me hace sentir mal
+    - me culpa de todo
+    - me hace sentir que soy la culpable
+    - no me deja ver a mis amigas
+    - me humilla
+    - me insulta
 
 - intent: tipo_violencia_feminicida
   examples: |
     - me amenaza con matarme
-    - temo por mi vida
     - me dijo que me iba a matar
     - intento de feminicidio
     - me persigue con intención de hacerme daño
     - me quiere asesinar
     - me amenaza de muerte
+    - me amenaza de muerte
+    - me amenaza con matarme
+    - me dijo que me iba a matar si lo dejaba
+    - siento que me puede matar
+    - intento de feminicidio
+    - me amenaza con un arma
+    - siento que mi vida está en riesgo
 
 - intent: frases_comunes_victima
   examples: |
@@ -87,6 +137,12 @@ nlu:
     - creo que estoy exagerando
     - tal vez es mi culpa
     - no sé si debo denunciar
+    - me obliga a tener hijos
+    - no me deja decidir si quiero tener hijos
+    - me fuerza a embarazarme
+    - me controla para que no me cuide
+    - cómo afecta a mis derechos reproductivos
+    - no respeta mi decisión de no tener hijos
 
 - intent: base_legal_fisica
   examples: |
@@ -157,6 +213,11 @@ nlu:
     - me pide mis contraseñas
     - me dice cómo vestirme
     - me prohíbe hablar con mis amigas
+    - me prohíbe salir
+    - me prohíbe ver a mi familia
+    - me controla dónde voy
+    - revisa mi teléfono
+    - me dice con quién puedo hablar
 
 - intent: senales_alerta_miedo
   examples: |
@@ -165,6 +226,9 @@ nlu:
     - no sé cómo decirle algo sin que se enoje
     - camino con cuidado para que no se moleste
     - me paralizo cuando se enoja
+    - me da miedo estar con él
+    - siento que me puede hacer daño
+    - tengo miedo de que regrese
 
 - intent: acompanamiento_proceso
   examples: |
@@ -224,6 +288,19 @@ nlu:
     - qué número puedo llamar si estoy en riesgo
     - me siento insegura en este momento
     - necesito apoyo inmediato
+    - qué hago si estoy en peligro
+    - estoy en peligro que hago
+    - estoy en peligro ahora
+    - necesito ayuda ya
+    - qué hago si sufro violencia
+    - qué hago si estoy sufriendo violencia
+    - dónde puedo pedir ayuda en CDMX
+    - dónde pido ayuda
+    - a dónde voy si me están golpeando
+    - puedo denunciar a mi pareja si me golpea
+    - puedo denunciar a mi pareja
+    - cómo denuncio a mi agresor
+    - dónde puedo denunciar
 
 - intent: instituciones_general
   examples: |
@@ -233,6 +310,10 @@ nlu:
     - ¿dónde puedo recibir apoyo psicológico si vivo violencia?
     - ¿qué instituciones brindan ayuda gratuita?
     - ¿conoces organizaciones que acompañen a víctimas?
+    - conoces organizaciones civiles que ayuden a mujeres
+    - qué organizaciones ayudan a mujeres
+    - dónde me pueden ayudar si sufro violencia
+    - qué instituciones me apoyan
 
 - intent: instituciones_centros_justicia
   examples: |
@@ -243,11 +324,38 @@ nlu:
     - conoces organizaciones civiles que apoyen mujeres
     - qué es INMUJERES
     - la CNDH me puede ayudar
+    - dónde están las fiscalías
+    - dónde está la fiscalía especializada en violencia
+    - dónde acudir en CDMX
 
 - intent: alerta_urgente
   examples: |
     - estoy en peligro
-    - estoy en peligro que hago?
-    - qué hago si estoy en riesgo
-    - necesito ayuda urgente
-    - temo por mi vida
+    - auxilio, estoy en riesgo de muerte
+    - me van a matar
+    - es urgente, ayúdenme por favor
+    - necesito protección ahora
+
+- intent: despedida
+  examples: |
+    - gracias
+    - adiós
+    - hasta luego
+    - eso es todo por ahora
+    - gracias por ayudarme
+
+- intent: faq_derechos_reproductivos
+  examples: |
+    - ¿es legal decidir sobre mi embarazo?
+    - ¿puedo decidir si quiero tener hijos?
+    - ¿qué pasa si me obligan a embarazarme?
+    - ¿pueden forzarme a usar o no usar anticonceptivos?
+    - derechos reproductivos en México
+
+- intent: lugares_seguridad
+  examples: |
+    - dónde puedo encontrar un lugar seguro
+    - dónde hay refugios cerca
+    - a qué lugar seguro puedo acudir
+    - necesito ubicar un refugio
+    - dónde están los centros de apoyo cercanos

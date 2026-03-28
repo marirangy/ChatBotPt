@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  # Action Server (custom Python actions)
+  actions:
+    image: rasa/rasa-sdk:3.6.2
+    volumes:
+      - ./actions:/app/actions
+      - ./data:/app/data:ro
+    ports:
+      - "5055:5055"
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+
+  # Rasa Core + NLU
+  rasa:
+    image: rasa/rasa:3.6.20
+    volumes:
+      - .:/app
+    ports:
+      - "5005:5005"
+    command: run --enable-api --cors "*" --port 5005 -i 0.0.0.0
+    environment:
+      - ACTION_ENDPOINT_URL=http://actions:5055/webhook
+    depends_on:
+      - actions

@@ -12,6 +12,7 @@ intents:
   - acompanamiento_seguimiento
   - acompanamiento_tiempos
   - alerta_acompanamiento_emergente
+  - alerta_urgente
   - alerta_ayuda_inmediata
   - alerta_lineas_urgencia
   - alerta_ubicacion_segura

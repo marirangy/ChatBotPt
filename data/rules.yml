@@ -2,6 +2,21 @@ version: "3.1"
 
 rules:
 
+- rule: Responder saludo en cualquier momento
+  steps:
+    - intent: saludo
+    - action: utter_saludo
+
+- rule: Responder despedida en cualquier momento
+  steps:
+    - intent: despedida
+    - action: utter_despedida
+
+- rule: Responder fallback de NLU
+  steps:
+    - intent: nlu_fallback
+    - action: utter_default
+
 
 - rule: Responder a violencia contra derechos reproductivos
   steps:
@@ -54,6 +69,11 @@ rules:
 - rule: Alerta - ayuda inmediata
   steps:
     - intent: alerta_ayuda_inmediata
+    - action: action_answer_violence_type
+
+- rule: Alerta - urgente
+  steps:
+    - intent: alerta_urgente
     - action: action_answer_violence_type
 
 - rule: Alerta - líneas de urgencia
