@@ -8,8 +8,6 @@ from typing import Any, Text, Dict, List, Optional
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
-
-# === Helpers NUEVOS ===
 def _normalize(text: str) -> str:
     """Devuelve el texto en minúsculas, sin acentos/diacríticos y sin espacios extra."""
     if not text:
@@ -38,7 +36,6 @@ def detectar_por_palabras(user_text: str) -> Optional[str]:
         except Exception:
             continue
     return None
-# === Fin helpers ===
 
 
 class ActionViolenceType(Action):
