@@ -200,10 +200,6 @@ stories:
     - intent: instituciones_contacto_emergencia
     - action: action_answer_violence_type
 
-# ==============================
-# Nuevas historias: Derechos Reproductivos
-# ==============================
-
 - story: Detecta derechos reproductivos por intent
   steps:
     - intent: tipo_violencia_derechos_reproductivos
@@ -234,7 +230,6 @@ stories:
     - intent: tipo_violencia_derechos_reproductivos
     - action: action_answer_violence_type
 
-# Flujo multi-turno: respuesta directa + qué hacer + consecuencias + base legal
 - story: DR multi-turno con pasos y consecuencias
   steps:
     - intent: tipo_violencia_derechos_reproductivos
@@ -261,10 +256,6 @@ stories:
     - action: action_answer_violence_type
     - intent: senales_alerta_control
     - action: action_answer_violence_type
-
-# ==============================
-# Nuevas historias: Violencia Económica
-# ==============================
 
 - story: Económica por intent
   steps:
@@ -296,7 +287,6 @@ stories:
     - intent: tipo_violencia_economica
     - action: action_answer_violence_type
 
-# Multi-turno: respuesta directa + qué hacer + instituciones
 - story: Económica multi-turno con pasos e instituciones
   steps:
     - intent: tipo_violencia_economica
@@ -306,15 +296,10 @@ stories:
     - intent: instituciones_general
     - action: action_answer_violence_type
 
-# FAQ típica
 - story: Económica FAQ - si no me deja trabajar es violencia economica
   steps:
     - intent: tipo_violencia_economica
     - action: action_answer_violence_type
-
-# ==============================
-# Nuevas historias: Violencia Feminicida
-# ==============================
 
 - story: Feminicida por intent
   steps:
@@ -341,7 +326,6 @@ stories:
     - intent: tipo_violencia_feminicida
     - action: action_answer_violence_type
 
-# Flujo multi-turno: medidas e instituciones
 - story: Feminicida multi-turno con medidas e instituciones
   steps:
     - intent: tipo_violencia_feminicida
@@ -350,10 +334,6 @@ stories:
     - action: action_answer_violence_type
     - intent: instituciones_general
     - action: action_answer_violence_type
-
-# ==============================
-# Nuevas historias: Violencia Patrimonial
-# ==============================
 
 - story: Patrimonial por intent
   steps:
@@ -384,10 +364,6 @@ stories:
     - intent: instituciones_general
     - action: action_answer_violence_type
 
-# ==============================
-# Nuevas historias: Violencia Psicoemocional
-# ==============================
-
 - story: Psicoemocional por intent
   steps:
     - intent: tipo_violencia_psicoemocional
@@ -416,10 +392,6 @@ stories:
     - action: action_answer_violence_type
     - intent: instituciones_general
     - action: action_answer_violence_type
-
-# ==============================
-# Nuevas historias: Violencia Sexual
-# ==============================
 
 - story: Sexual por intent
   steps:
