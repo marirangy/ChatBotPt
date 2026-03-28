@@ -2,4 +2,4 @@
 # Reemplaza <tu-actions-render> por el hostname real de tu servicio actions.
 
 action_endpoint:
-  url: "https://<tu-actions-render>.onrender.com/webhook"
+  url: "https://nima-actions.onrender.com/webhook"
